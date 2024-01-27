@@ -114,9 +114,9 @@
   (fp_line (start 1.4 0.9) (end -1.4 0.9)
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp baa7af6e-1796-4dfe-8353-2895d729eb75))
   (pad "1" smd roundrect (at -1.65 0) (size 0.9 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d57d9f93-2837-47a4-a776-e821bfe8c1b4))
-  (pad "1" smd roundrect (at 1.65 0) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25) (tstamp cc555e1b-ef4c-4b82-ac03-fd673b561e96))
-  (pad "2" smd roundrect (at -1.65 0) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25) (tstamp a94170d3-5218-4554-9c83-9f704e909875))
+  (pad "1" smd roundrect (at -1.65 0) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25) (tstamp a94170d3-5218-4554-9c83-9f704e909875))
   (pad "2" smd roundrect (at 1.65 0) (size 0.9 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 180efac4-c0b1-4389-8512-bf967c22de89))
+  (pad "2" smd roundrect (at 1.65 0) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25) (tstamp cc555e1b-ef4c-4b82-ac03-fd673b561e96))
   (group "" (id f684eddc-de13-4c46-a60e-7475b8e1d58a)
     (members
       0f1bfeba-563c-4539-ba26-04bc0f70bdd7
