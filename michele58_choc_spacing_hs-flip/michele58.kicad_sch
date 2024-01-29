@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "VF1 Valkyrie Choc RGB")
+    (comment 2 "X=18.5mm; Y=17.5mm")
+    (comment 3 "Spaced for MBK Glow R2 Choc Keycap Set")
+  )
+
   (lib_symbols
     (symbol "Jumper:Jumper_2_Open" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "JP" (at 0 2.794 0)
