@@ -1,0 +1,13 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"D1, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D2, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D3, D4, D5, D6, D7, D8, D9",Diode_SOD-123-double-sided,29,Diode,
+"D30, D31, D32, D33, D34, D35, D36, D37, D38, D39, D40, D41, D42, D43, D44, D45, D46, D47, D48, D49, D50, D51, D52, D53, D54, D55, D56, D57, D58",SK6812-MINI-E-double-side,29,SK6812MINI-E,
+"H1, H2, H3, H4, H5",MountingHole_3.2mm_M3,5,Mounting_Hole,
+J1,OLED_4Pin,1,OLED,
+"J2, J3",1pin_conn,2,i2c,
+J4,LED,1,LED,
+"JP1_2, JP1, JP2_2, JP2, JP3_2, JP3, JP4_2, JP4, JP5, JP6_2, JP6, JP7_2, JP7",jumper_data-MOD,13,Jumper,
+RSW1,TACT_SWITCH_TVBP06,1,SW_RST,
+"S1, S10, S11, S12, S13, S14, S15, S16, S17, S18, S19, S2, S20, S21, S22, S23, S24, S25, S26, S27, S28, S29, S3, S4, S5, S6, S7, S8, S9",Choc_Hotswap-double-sided,29,Keyswitch,
+Thumbstick1,Mini 2-Axis Analog Thumbstick,1,~,
+U1,ProMicro,1,Elite-Pi_RP2040,
+U2,TRRS-PJ-320A-double-sided,1,TRRS,
