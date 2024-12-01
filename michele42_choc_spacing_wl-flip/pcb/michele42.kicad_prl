@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "8000000_fffffffe",
+    "visible_layers": "7fff000_00000000",
     "zone_display_mode": 0
   },
   "meta": {
