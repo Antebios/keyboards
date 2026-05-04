@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SofleKeyboard1")(type "KiCad")(uri "${MYLOCAL1}/symbols/SofleKeyboard.kicad_sym")(options "")(descr ""))
+)
