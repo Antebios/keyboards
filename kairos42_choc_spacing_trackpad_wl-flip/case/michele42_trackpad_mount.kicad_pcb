@@ -1,0 +1,3219 @@
+(kicad_pcb
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+		(47 "User.5" user)
+		(49 "User.6" user)
+		(51 "User.7" user)
+		(53 "User.8" user)
+		(55 "User.9" user)
+	)
+	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.5mm"
+		(layer "F.Cu")
+		(uuid "07085041-1f8b-4a2f-8516-2c8ebc2716b6")
+		(at 135.5 123)
+		(descr "Mounting Hole 3.5mm, no annular")
+		(tags "mounting hole 3.5mm no annular")
+		(property "Reference" "H2"
+			(at 0 -4.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a972d3b5-ffc3-4ccc-8a16-9ad8f78ea4ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Mounting_Hole"
+			(at 0 4.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ea6906a-d1f1-4802-82cf-1536999743e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2d265f0-4884-47a5-878a-2959e06184a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14b100a2-8ca7-460f-b52a-7faf6fcf897a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/3eedd11d-a4b9-4780-9052-779628d489d8")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "a8856811-26d2-45d0-9b28-515b55de7478")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "32bd92c2-b70f-4af8-8d96-b7e9641f25c3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "8d069b2b-cc77-4613-8b36-5c46ed54bfa8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 3.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "b88cbcf2-44b3-41db-8767-c85091a5cead")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "mylocal_footprints:Choc_1350_Mount"
+		(layer "F.Cu")
+		(uuid "2a4cb048-283f-4cce-9112-77102edab1c7")
+		(at 179.231753 93.715542 180)
+		(property "Reference" "S11"
+			(at 1.14 -8.28 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e8ab8ee6-f92d-443a-9246-cca8a4a82bfc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at -0.11 8.22 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bcffa1b-80af-4bb2-afeb-61945caca6cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "261c2df0-94da-4d5a-a212-26248407abed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2dfc236b-560e-40bb-998a-afaf3c77dcfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/872fbc44-1514-4213-a29d-0d2340a5f77c")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -6.8 -6.8)
+			(end 6.8 6.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "2618bd17-5a09-4469-ad2e-757aac4900e0")
+		)
+		(fp_rect
+			(start -6.9 -6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "b1cfa5cc-9777-44a3-955a-35b0d186193a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.2 9.94 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "01b54559-7e45-405f-8acb-657d35ac858c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "mylocal_footprints:Choc_1350_Mount"
+		(layer "F.Cu")
+		(uuid "2c0cf1f5-4a54-4515-9bb5-eceba53e7575")
+		(at 142.231753 66.115542 180)
+		(property "Reference" "S3"
+			(at 1.14 -8.28 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f34d4787-f4bf-4658-aeb2-d277bf2df1c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at -0.11 8.22 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e7c02d5-af01-4b2e-882b-5e90e4ff2eee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6afb8713-be5b-4665-9e75-29c311a58134")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5846c917-80a9-4075-852e-12ef71f1713d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/8ecee78e-bee9-4f71-98b0-b1d377196879")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -6.8 -6.8)
+			(end 6.8 6.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "d106a0f8-1646-4a34-82ff-fdb1b1747747")
+		)
+		(fp_rect
+			(start -6.9 -6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "f34a1a89-1bcd-4eb1-80cb-7655d450139d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.2 9.94 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a66e4a63-e33f-4c81-9450-4973fa946416")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "mylocal_footprints:Choc_1350_Mount"
+		(layer "F.Cu")
+		(uuid "2c648555-3415-45d0-9249-39a0ccd5f735")
+		(at 102.867959 125.306653 -160)
+		(property "Reference" "S20"
+			(at 1.14 -8.28 200)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cedcecce-56b2-4d3a-b930-9f2afcc6685c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at -0.110001 8.22 200)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c121d05-73fb-4c17-ade9-1182bba14b0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 200)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41118073-c0b6-47f3-9f50-feaa82e442f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 200)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0969008-8054-4049-ab3c-f7a9d8f1d312")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/edc5759e-4999-4e93-a3ea-1c88ec7078df")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -6.8 -6.8) (xy 6.8 -6.8) (xy 6.8 6.8) (xy -6.8 6.8)
+			)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "3b4293bd-57df-4e1e-ba27-0b8de14b900f")
+		)
+		(fp_poly
+			(pts
+				(xy -6.9 -6.9) (xy 6.9 -6.9) (xy 6.9 6.9) (xy -6.9 6.9)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "efa93064-0d95-4509-a05c-abee9c9f1bff")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.2 9.94 200)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d37de5ec-0eef-46dd-9e69-612ed52042e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "mylocal_footprints:Choc_1350_Mount"
+		(layer "F.Cu")
+		(uuid "37242789-8e38-42dd-9f70-2d9dd92098f3")
+		(at 197.731753 76.215542 180)
+		(property "Reference" "S6"
+			(at 1.14 -8.28 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "77b76427-ba4a-49eb-aee4-f323d3db2538")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at -0.11 8.22 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ea4739d-9187-4897-9ddb-e0bb2eb054aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14d683d1-6def-4136-bc17-336e2c462ea2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa3b416b-0e3c-4bbd-b2d6-a1f9388d1cad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/f24e72d3-d585-4685-8260-0808fb1b477f")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -6.8 -6.8)
+			(end 6.8 6.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "b402b5c4-9ec1-45fa-baba-cfdc95aeba22")
+		)
+		(fp_rect
+			(start -6.9 -6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "630872b4-862b-437a-8426-ccbcf8097fb7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.2 9.94 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "28336680-6e02-4ba6-9342-42238a9c9664")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "mylocal_footprints:Choc_1350_Mount"
+		(layer "F.Cu")
+		(uuid "49f88d94-e2f8-4cb6-9f46-31c236f54893")
+		(at 142.231753 83.615542 180)
+		(property "Reference" "S9"
+			(at 1.14 -8.28 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "675a5881-0976-4a44-b29f-1b56c0654018")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at -0.11 8.22 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9264dfaf-2c63-4b0f-bd04-de1f8d100e74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "649c234f-d96d-4d88-9065-712921981f5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60d47976-85e9-4920-90bf-1c4356fd6f84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/91ac748a-09c3-4303-8f0c-70946ec98b22")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -6.8 -6.8)
+			(end 6.8 6.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "d90aeefe-a301-4e56-b637-c563ccb90d2b")
+		)
+		(fp_rect
+			(start -6.9 -6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "a9c4d200-c22e-4da0-93ed-5f8b938e04e9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.2 9.94 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ae66f8f5-a620-4318-8cf1-179fa23fc0d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "mylocal_footprints:Choc_1350_Mount"
+		(layer "F.Cu")
+		(uuid "4dd0e0e5-5b60-468a-823a-0ae8a331de76")
+		(at 160.731753 85.115542 180)
+		(property "Reference" "S10"
+			(at 1.14 -8.28 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "defe200a-bc8f-4f28-b45f-0c8b6256062f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at -0.11 8.22 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65149845-b1fb-4d0f-887e-2c448f809f2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ba84d1a-67d2-45e6-97e1-d8c4d5d55438")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "266ec2e6-eb15-48ff-bb41-595c28427e17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/68eb2244-6bb0-4ecb-8091-37c32b5b4df6")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -6.8 -6.8)
+			(end 6.8 6.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "73fc857a-6f05-47e6-a707-7141803f3fe4")
+		)
+		(fp_rect
+			(start -6.9 -6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "28b109b5-b3fe-4f39-8105-74a74102ba8f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.2 9.94 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "815e5dfb-9480-41c3-b117-e38f6f7dbf79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "mylocal_footprints:Choc_1350_Mount"
+		(layer "F.Cu")
+		(uuid "5093642b-5151-4ea9-8c10-91a6c68fb346")
+		(at 179.231753 76.215542 180)
+		(property "Reference" "S5"
+			(at 1.14 -8.28 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "754dcab3-ccd8-4c35-8549-e3610629f09b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at -0.11 8.22 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71e0184c-e7a4-42ad-bb05-5d233569a8ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04dc1f93-3fcb-408a-b0e1-e49fb5a38539")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66edf56f-bf90-463d-b033-2f00d3f1e63f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/5936fe26-a49c-4865-8468-97d3bf053795")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -6.8 -6.8)
+			(end 6.8 6.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "a378f223-ee70-48ca-974d-da3a12152fb6")
+		)
+		(fp_rect
+			(start -6.9 -6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "2043c788-38b5-407f-9e38-a3e7580ef380")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.2 9.94 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "9b408d01-a3af-419c-8a41-233d927c7170")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "mylocal_footprints:Choc_1350_Mount"
+		(layer "F.Cu")
+		(uuid "518ebe15-7122-46c5-bddb-bf15a9b072c7")
+		(at 197.731753 93.715542 180)
+		(property "Reference" "S12"
+			(at 1.14 -8.28 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9bf7b73e-85f6-404c-ac78-361a4556c3ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at -0.11 8.22 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "395279d1-74e0-49cd-9668-6ffb76667d1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a08ab058-7620-4681-b5c7-fd67cf21b678")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75e14eab-6abd-4499-83bf-db52334847ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/00243c73-8071-44bd-8027-04c9b34ae3cc")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -6.8 -6.8)
+			(end 6.8 6.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "7e4674ff-ddc7-4d72-b68d-b562fb98f31d")
+		)
+		(fp_rect
+			(start -6.9 -6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "a89893c0-bb90-49d1-b1f2-c9fb6073b01b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.2 9.94 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "12c5a9e9-443c-48b5-9830-3a357f5a75b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "mylocal_footprints:Choc_1350_Mount"
+		(layer "F.Cu")
+		(uuid "57001c42-e9b6-48b8-8d3f-58a67a604f71")
+		(at 123.731753 67.615542 180)
+		(property "Reference" "S2"
+			(at 1.14 -8.28 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ddc20f0d-d5d0-4d22-b2c6-5b1daed5dcba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at -0.11 8.22 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bac91e9-a472-4c6f-8f0f-7f94a302425b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c122b54d-9d5f-40bd-b6f3-c559083cabef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a1fae29-e8f1-4ac3-aa4e-3dfe2b82867a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/88b9ee70-4d1f-4a6d-ba1a-c729f3f1c431")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -6.8 -6.8)
+			(end 6.8 6.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "4a73120f-c62e-45c1-a532-c749d79a4b0b")
+		)
+		(fp_rect
+			(start -6.9 -6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "4e57229e-7f24-4087-a7b8-abb4ac600cc7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.2 9.94 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "e58c62a6-3cca-4c64-b972-648525c77f46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "mylocal_footprints:Choc_1350_Mount"
+		(layer "F.Cu")
+		(uuid "594282d3-e54d-4ea1-a467-0fe2b84ccb79")
+		(at 105.231753 104.615542 180)
+		(property "Reference" "S13"
+			(at 1.14 -8.28 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "17f42e61-b129-4112-93cb-129af173dbb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at -0.11 8.22 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "adf819b4-8ae5-43ff-aa4b-35a54ad351cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bed9af5f-b590-4732-8175-d26238f89eb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea7a6838-05e4-4a30-bc3d-71482590ba97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/66b8d77e-73bb-45ff-8e91-691bb3973187")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -6.8 -6.8)
+			(end 6.8 6.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "b86af0b1-ea9f-4e1f-a7ad-70aef79430b0")
+		)
+		(fp_rect
+			(start -6.9 -6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "0ba9e43a-fb13-434d-9f26-50d76c210c82")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.2 9.94 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0c251226-bdb6-4790-8f36-7e814a507acb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "mylocal_footprints:Choc_1350_Mount"
+		(layer "F.Cu")
+		(uuid "5b98f0cf-ecfc-4767-924d-2746fd86d1d7")
+		(at 105.231753 87.115542 180)
+		(property "Reference" "S7"
+			(at 1.14 -8.28 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1bc99e15-edc1-425d-8276-b221168d76c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at -0.11 8.22 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "550b7349-c2a8-408f-b289-b3ce9692cb90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0edc6a5e-4d6a-4f9f-aeff-b6f0dfce3ea5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d19eac07-6092-4eb0-875d-c7caf1d5c366")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/00cedfc5-6009-4272-b6a4-cd2852e12774")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -6.8 -6.8)
+			(end 6.8 6.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "e70f0e9f-f43f-475f-8b43-4c79cd071908")
+		)
+		(fp_rect
+			(start -6.9 -6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "73752ec5-1afb-441f-96fd-3192c0bf90f3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.2 9.94 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "09b97b2d-8395-44d7-a6f6-f37dd5317975")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "mylocal_footprints:Choc_1350_Mount"
+		(layer "F.Cu")
+		(uuid "66fd4a52-135a-44bb-bd20-3d1c6670570c")
+		(at 197.731753 111.215542 180)
+		(property "Reference" "S18"
+			(at 1.14 -8.28 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b17ca8d2-95c5-473b-a2df-23dc3368afc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at -0.11 8.22 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d29574d-6650-4721-9a32-6d0a99563eee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "337dd69e-dbfb-4baf-b538-4109cd0f292a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64be7e40-61b5-46e2-a69e-ce10e8a6396f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/244b0b0d-f62b-47ad-adf0-fa2f074fad2c")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -6.8 -6.8)
+			(end 6.8 6.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "536f77e5-7bb8-4761-9ac9-6b522520b5d2")
+		)
+		(fp_rect
+			(start -6.9 -6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "96ede0c4-5676-41cd-b39d-47d2af702231")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.2 9.94 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7fe60186-d8b3-481b-ac60-32e0d48fe083")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_3.5mm"
+		(layer "F.Cu")
+		(uuid "6d536929-c1ff-4d5d-83d8-045d7a1edd77")
+		(at 113.33 60.03)
+		(descr "Mounting Hole 3.5mm, no annular")
+		(tags "mounting hole 3.5mm no annular")
+		(property "Reference" "H1"
+			(at 0 -4.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a220fc99-b5d4-4249-9f05-317369d573cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Mounting_Hole"
+			(at 0 4.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47703229-7fdc-4c4e-9ac1-42f4a4b4cfa7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b257ebf-9234-41a9-9eaa-18da573314f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d167717e-3f47-4306-9c25-2a74ae34b337")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/05c68d3a-9be8-4161-b11a-65c561c73b07")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "22daab5b-6778-4b59-8d0c-d0be49d4ca1c")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "9cd274f5-e714-4502-8e91-8fdfa8c1690c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "532b40c4-5f3e-4f62-9765-4573bb8ee56c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 3.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "745e327c-c025-4d23-a61a-bc5e43341b43")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "mylocal_footprints:Choc_1350_Mount"
+		(layer "F.Cu")
+		(uuid "7b0e5fb3-5257-4cc8-a1d4-4a8e53d64c51")
+		(at 160.731753 102.615542 180)
+		(property "Reference" "S16"
+			(at 1.14 -8.28 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "38fb55b9-763b-447b-b324-d58642e85ceb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at -0.11 8.22 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6dd8fbd4-da23-406b-971b-7baa20de7aaa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce44c65e-72ad-4d8d-8b35-abd0e6e3f019")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33a2c070-2853-4a52-8697-96bffd93501c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/f3142263-c95e-4440-9e18-a455355ad74d")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -6.8 -6.8)
+			(end 6.8 6.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "485ff704-bbe6-4b3b-afdf-db607bef36cc")
+		)
+		(fp_rect
+			(start -6.9 -6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "4b0ba105-2b7b-4c36-867a-733cfa5235ec")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.2 9.94 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0fe2bb0c-bdc2-49cc-acd5-9b6a83684ac5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_3.5mm"
+		(layer "F.Cu")
+		(uuid "8ec563a6-6be3-43ba-8270-2f798d26d816")
+		(at 90.89 123.49)
+		(descr "Mounting Hole 3.5mm, no annular")
+		(tags "mounting hole 3.5mm no annular")
+		(property "Reference" "H5"
+			(at 0 -4.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9d31561b-54cf-4223-a062-20aa5679bebb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Mounting_Hole"
+			(at 0 4.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c76f9938-1fe0-4ad0-8b78-e584cac3842a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f5fe21f-083f-41db-ae38-4de3a81917d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d5153bf-2686-4cfb-9e92-328a5cf58db5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/627f3a37-bdf9-4633-a3b7-937a1e25c59e")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "d6c53c19-d410-4580-a59d-9c17fb34ae5b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e1771e0a-0357-4fa5-b3f3-06466149ac4a")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 3.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6f5c89ec-f76b-40b3-9aed-00b90aa65893")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_3.5mm"
+		(layer "F.Cu")
+		(uuid "a3cd15c8-bd13-46f8-b25d-fb1b0a0d5c0a")
+		(at 73.5 126.5)
+		(descr "Mounting Hole 3.5mm, no annular")
+		(tags "mounting hole 3.5mm no annular")
+		(property "Reference" "H6"
+			(at 0 -4.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d198f6c8-ec0c-41ef-9528-464e4fb21705")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Mounting_Hole"
+			(at 0 4.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbdd2f4c-9ccc-4e21-aab3-29a39125d49f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b6a402b-78fd-4f56-bfef-c705efead9dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "915af5ea-317b-464e-9c3d-4c50db35eca5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/223bf30d-c295-49d0-b2c0-2cd2a1421586")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "3f541140-46ef-4e24-8962-a10a7056ac84")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "f6fa814c-ec67-4c5d-950d-0677e5ad9053")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ebedc6ac-60f7-4450-be49-d9be5a0f3d5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 3.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "21b6df14-ea3c-4351-943d-dfbebfc3e806")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "mylocal_footprints:Choc_1350_Mount"
+		(layer "F.Cu")
+		(uuid "ad64ad95-5965-40fb-b1bd-7a348b4f867a")
+		(at 160.731753 67.615542 180)
+		(property "Reference" "S4"
+			(at 1.14 -8.28 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "14a1d473-a6b0-4a59-afbd-dc4dfad38144")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at -0.11 8.22 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d998b629-6dd0-468d-9172-ce812fb88d27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a16de56d-6a51-40bb-8a8e-751c163569fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fe1f1aa-23ad-47d8-8377-048f164201ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/87cb7f67-7072-4939-86c5-bdb8461afd13")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -6.8 -6.8)
+			(end 6.8 6.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "c34e5689-28df-4bae-a9ff-6ae91cd3e1cb")
+		)
+		(fp_rect
+			(start -6.9 -6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "44985cb8-7b9f-45f7-a63e-287db0bfaa2d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.2 9.94 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d7920bfc-0ddc-4b28-a824-1da953d495f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_3.5mm"
+		(layer "F.Cu")
+		(uuid "b3c19d9d-be31-447c-8e79-f3eaf3f14b78")
+		(at 188.43 85)
+		(descr "Mounting Hole 3.5mm, no annular")
+		(tags "mounting hole 3.5mm no annular")
+		(property "Reference" "H4"
+			(at 0 -4.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "15c442ad-e2bc-41be-90c1-ecccb7d87467")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Mounting_Hole"
+			(at 0 4.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7e4c954-8fa1-43f8-aca6-b5dfe0d79a93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a1d68a7-06b5-473b-bec6-0ec5970c3ab5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bef73e03-3d51-4cb5-811e-3c081cd5b192")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/4d2812ac-69ae-44cc-ac9e-56539ae641da")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "edb05652-c39e-4c92-a33e-e8c94f385baf")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "47622612-c23c-45be-a2a2-6ce12e89fe96")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a81ce9f1-c151-41da-b24c-774a62b3aea2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 3.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "ffe4df57-8486-4d29-aab6-ff1144c99ed5")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_3.5mm"
+		(layer "F.Cu")
+		(uuid "b79c6d3a-2fba-4b3d-9cf0-ed33b82f695c")
+		(at 94.06 96.5)
+		(descr "Mounting Hole 3.5mm, no annular")
+		(tags "mounting hole 3.5mm no annular")
+		(property "Reference" "H7"
+			(at 0 -4.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c111b408-d7be-4e30-a678-97ffee40dc47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Mounting_Hole"
+			(at 0 4.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1884f0c0-2640-4dc5-9536-9e20e740ee5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67b59c48-ffca-4870-9ad7-219893c5a96f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20a2cbce-4837-460b-b3b2-e1f34735962f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/4d04319c-b2ef-45aa-8fa1-39a7f91cc58f")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "6313c27c-0c2d-484a-872b-6bf38a4c98a6")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "69017641-cdfa-4e0b-abf5-f667187ededf")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a4cbde64-142f-42b8-ac74-c5995a8b59ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 3.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "dfd66968-db54-4193-ab76-e4a01a5ae4a1")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "mylocal_footprints:Choc_1350_Mount"
+		(layer "F.Cu")
+		(uuid "bea5bfa2-905b-4b2e-9f70-d12ff1e1336b")
+		(at 123.731753 120.115542 180)
+		(property "Reference" "S21"
+			(at 1.14 -8.28 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "95826bb8-837b-4574-939f-63896379f4d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at -0.11 8.22 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18e9e5fb-1f41-44ae-9624-428838c6acaa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6b2d681-b448-4141-b927-e9a00081d5b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af839ed6-4e72-47e8-af11-c3b61600aea9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/14409fa6-4b21-4d85-ae5d-1768a2edbb11")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -6.8 -6.8)
+			(end 6.8 6.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "19760e7a-e03d-404f-89bc-09eba82dbce8")
+		)
+		(fp_rect
+			(start -6.9 -6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "9286b6f6-6ed2-4d82-9491-5ee0ab0d539b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.2 9.94 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "827c711f-dd7e-4b5e-81ff-93e8c03a41d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "mylocal_footprints:Choc_1350_Mount"
+		(layer "F.Cu")
+		(uuid "bfca58ad-0fe1-4684-bd9b-57b67598f942")
+		(at 123.731753 102.615542 180)
+		(property "Reference" "S14"
+			(at 1.14 -8.28 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b45fd01a-3319-4e9f-b27b-36912971ef38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at -0.11 8.22 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0072597-14f9-4f45-afdd-973ce8c1298b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0241de65-032b-41b7-8e22-445a1660f361")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a29a1f2-ef7b-408b-b80b-b32ad36dcd7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/c46a7002-202a-4265-9061-7502acd8588c")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -6.8 -6.8)
+			(end 6.8 6.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "3a3ed7b0-a545-45b3-9dc1-a700d9d4dfa0")
+		)
+		(fp_rect
+			(start -6.9 -6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "c76b18b5-bd30-4715-9001-ffcdd3ae3861")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.2 9.94 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "67043129-f9dd-42ea-9132-61935eeff45f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "mylocal_footprints:Choc_1350_Mount"
+		(layer "F.Cu")
+		(uuid "cbb658f2-f512-4a67-8d49-937aaa975a0c")
+		(at 123.731753 85.115542 180)
+		(property "Reference" "S8"
+			(at 1.14 -8.28 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cd6305d0-6a2c-4285-accb-df61938cbfe9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at -0.11 8.22 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5bb2eb90-5007-460c-8e85-a0c18763636b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63ca62b4-dda5-48a9-be01-5fa7699a8399")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7544c316-61ac-420d-b23e-ec9a849ec656")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/da96c48c-a485-4018-bbf3-4429dcc6e042")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -6.8 -6.8)
+			(end 6.8 6.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "ade7b0ab-ad1a-4d51-82d3-79442a8a5c82")
+		)
+		(fp_rect
+			(start -6.9 -6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "76b3ef44-0c55-41b2-9800-29f4bf212bac")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.2 9.94 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a8aeec6d-3735-402d-ad68-b8e16c4cfa37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "mylocal_footprints:Choc_1350_Mount"
+		(layer "F.Cu")
+		(uuid "cfcf99ce-6e41-4bb6-808e-32c31f256667")
+		(at 84.5 134 -150)
+		(property "Reference" "S19"
+			(at 1.14 -8.28 210)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dcb27c90-642c-4110-b562-d7d585117c25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at -0.11 8.22 210)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35c8efd7-44a4-4230-82b6-9767abe928cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 30)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83527b41-dbd0-4929-8d96-b52a170df93f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 30)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "961c6028-951e-4ee2-9148-909d5abf54ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/2632d07c-9ac9-4f33-bd4c-d9c3a051e45d")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -6.8 -6.8) (xy 6.8 -6.8) (xy 6.8 6.8) (xy -6.8 6.8)
+			)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "51b743d1-5d6d-4dc6-aaf2-0082a56acbeb")
+		)
+		(fp_poly
+			(pts
+				(xy -6.9 -6.9) (xy 6.9 -6.9) (xy 6.9 6.9) (xy -6.9 6.9)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "c6adb1b6-6205-442c-a47c-f87a0a6d2973")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.2 9.94 210)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f363b418-5d31-410f-86b6-b6a42cd74e44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "mylocal_footprints:Choc_1350_Mount"
+		(layer "F.Cu")
+		(uuid "db3d1ad9-1141-442e-b0f2-73fec2409eac")
+		(at 105.231753 69.615542 180)
+		(property "Reference" "S1"
+			(at 1.14 -8.28 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fcb851de-1492-40da-879e-712cd7018b77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at -0.11 8.22 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cbba4c0-5e2b-441d-b35f-80cecf358c5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59c85a87-0163-4735-b7c4-c748497b5076")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c2f56e5-0b1f-4d8b-9e39-f1a4d78af8bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/0bee86e1-8248-4363-918d-19d82355446b")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -6.8 -6.8)
+			(end 6.8 6.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "389d407d-ae18-478c-aecf-d4f4030a7658")
+		)
+		(fp_rect
+			(start -6.9 -6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "46568fb7-6930-45c7-b936-60f0d741661a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.2 9.94 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "16185838-df3d-4a01-90d1-9a549a7a16c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "mylocal_footprints:Choc_1350_Mount"
+		(layer "F.Cu")
+		(uuid "e433d0b4-558a-4d21-a561-85f66ecfd146")
+		(at 142.231753 101.115542 180)
+		(property "Reference" "S15"
+			(at 1.14 -8.28 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5bde69bd-9cfa-4480-aa0b-cde8b5d34cc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at -0.11 8.22 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78ee63b6-0015-4bac-88ee-1e2f52577c72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a56e387c-b7b4-4ea8-939a-69bc88c2041e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9fe5436-9872-40aa-b8e1-60f19c777003")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/c449c1d4-488c-4d21-a59a-285e5191e66d")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -6.8 -6.8)
+			(end 6.8 6.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "d4d8d445-a4bd-4beb-a57a-c4802e506f7f")
+		)
+		(fp_rect
+			(start -6.9 -6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "ef4c843e-13c9-4e3b-9c9b-0205c38192f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.2 9.94 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c48c7174-a81b-4aaa-8e4c-2ed9fc8bc77f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_3.5mm"
+		(layer "F.Cu")
+		(uuid "e94c20aa-27cf-4884-9d27-134f26a8fc72")
+		(at 188.49 102.48)
+		(descr "Mounting Hole 3.5mm, no annular")
+		(tags "mounting hole 3.5mm no annular")
+		(property "Reference" "H3"
+			(at 0 -4.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "81bcea41-c6ff-4e66-b88b-fb0e384177c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Mounting_Hole"
+			(at 0 4.5 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31133c2a-c888-4261-98a2-3c88da452cd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c58a222-3c9f-4d95-ade7-e2fa097956e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d773d7c9-062f-4c14-aaa9-c7fab829cc97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/2a1c3451-3227-4f78-9f30-27b8c01062a8")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "09652421-baf1-4f87-bbbc-c3cec982d900")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "be10c522-a2ba-41ab-bad3-3debbb2f5ec9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d8e54ca3-5e21-4689-af39-1139421f5b7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 3.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "26371f2c-92bd-4d1c-857d-c5f6dfbf88a4")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "mylocal_footprints:Choc_1350_Mount"
+		(layer "F.Cu")
+		(uuid "fded3c00-adec-49b5-ad30-4340efd06942")
+		(at 179.231753 111.215542 180)
+		(property "Reference" "S17"
+			(at 1.14 -8.28 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ee1789d2-dba8-4136-bb90-6d110692c490")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at -0.11 8.22 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3ce295f-dd00-4cb3-9fe7-72153553ae3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1b8f206-76f5-4912-be5c-3a0303244697")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6c47617-c613-44f2-9078-049ab7ed9f41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/c589db15-72de-4e84-bd4c-a58320f30356")
+		(sheetname "/")
+		(sheetfile "michele42_trackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -6.8 -6.8)
+			(end 6.8 6.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "b02bccbd-d33f-49c1-8c93-428c1716a85f")
+		)
+		(fp_rect
+			(start -6.9 -6.9)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "2e92f377-aa0a-4dd4-819f-85d051961904")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.2 9.94 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d445513d-3572-44e4-ad0c-e7674df96b88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(gr_rect
+		(start 13.5 37.75)
+		(end 21.5 52.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Cu")
+		(uuid "2cf0cb9c-03ec-40bd-b7cc-b523c6432f11")
+	)
+	(gr_line
+		(start 68.169872 59.006962)
+		(end 68.17 125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b14eceed-5115-49a1-bcd9-5e349e120972")
+	)
+	(gr_arc
+		(start 68.169873 59.006963)
+		(mid 68.85 57.37)
+		(end 70.489892 56.696965)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a06da1df-c859-4a12-aada-c407f790a6b4")
+	)
+	(gr_line
+		(start 68.17 125)
+		(end 80.5 146.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1386e98a-08e5-41d1-ba34-14a81f33aa2a")
+	)
+	(gr_line
+		(start 72 131.5)
+		(end 96.5 116.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fa40d343-ad97-460f-931d-6330efac6fcc")
+	)
+	(gr_arc
+		(start 81.2279 146.735968)
+		(mid 80.814507 146.770502)
+		(end 80.5 146.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d4e523db-ef8f-48c5-91a4-e6f0a454440f")
+	)
+	(gr_line
+		(start 81.2279 146.735968)
+		(end 116.61 130)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6dad45d6-3783-4e4b-af89-fe7f430848b7")
+	)
+	(gr_line
+		(start 96.499936 56.697749)
+		(end 96.500064 122.496519)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a6cdb6f8-adf2-4891-ab77-921975be5373")
+	)
+	(gr_line
+		(start 116.61 130)
+		(end 135.705877 130)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3559e149-cfaa-4fb8-929c-27d539489613")
+	)
+	(gr_line
+		(start 135.705877 130)
+		(end 136.16 127.31)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2bf105b4-bfcb-420a-9c90-7caa3ec71655")
+	)
+	(gr_arc
+		(start 136.160001 127.31)
+		(mid 139.035556 122.50168)
+		(end 144.31 120.612498)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "84b209f8-0b5d-4999-8e2c-ec676803f366")
+	)
+	(gr_line
+		(start 144.31 120.612498)
+		(end 205.480109 120.613036)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "71566d1f-06c7-4b5c-b752-37f9f04ba148")
+	)
+	(gr_line
+		(start 171.11 56.699999)
+		(end 70.489891 56.696964)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9a30168c-518b-456b-aebf-6587f84913a6")
+	)
+	(gr_arc
+		(start 171.11 56.699999)
+		(mid 172.749891 57.373034)
+		(end 173.430019 59.009997)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4b693cc7-bb18-4055-81f4-19850dc8e88d")
+	)
+	(gr_line
+		(start 173.430019 59.009997)
+		(end 173.43 64.363037)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6bdd5a39-b7c7-4420-ac1c-9d27389b2e57")
+	)
+	(gr_arc
+		(start 175.750019 66.673035)
+		(mid 174.110128 66)
+		(end 173.43 64.363037)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c3ffc30e-3640-440e-b598-bc437a8dadcd")
+	)
+	(gr_line
+		(start 205.48 66.676964)
+		(end 175.750019 66.673035)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "886f53a3-b31a-43be-a747-0341c4254338")
+	)
+	(gr_arc
+		(start 205.48 66.676964)
+		(mid 207.119892 67.35)
+		(end 207.800019 68.986962)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "795a7827-4709-4979-90d3-54811e3f54ec")
+	)
+	(gr_arc
+		(start 207.800128 118.303038)
+		(mid 207.12 119.94)
+		(end 205.480109 120.613036)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fc0116c8-b7a1-481f-9283-db9f5cb3e7a9")
+	)
+	(gr_line
+		(start 207.800128 118.303038)
+		(end 207.800019 68.986962)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4a47b662-4a6e-42d1-88e6-c4d533be4f4e")
+	)
+	(gr_rect
+		(start 96.88 62.73)
+		(end 172.18 120.03)
+		(stroke
+			(width 0.2)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "084982f8-6538-480a-8772-ae056840422b")
+	)
+	(gr_rect
+		(start 112.12 60.78)
+		(end 172.12 118.48)
+		(stroke
+			(width 0.2)
+			(type dash_dot_dot)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e09af37b-cfa9-437c-ac0e-0727ddb896dc")
+	)
+	(gr_line
+		(start 73.8 103)
+		(end 54.1 103)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "d91de346-a53a-40d6-9410-40f2be27a65a")
+	)
+	(gr_line
+		(start 73.8 103)
+		(end 73.8 83.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "7a343abc-c858-4725-a87b-1908a9dbd393")
+	)
+	(gr_line
+		(start 73.8 103)
+		(end 73.8 122.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "aa85dedb-6bbf-4155-ab69-4ad0d9d99911")
+	)
+	(gr_circle
+		(center 73.8 103)
+		(end 93.5 103)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "f2c338db-c079-41ed-90e1-4bd256e22658")
+	)
+	(group ""
+		(uuid "47c8488c-5d5c-428f-9182-fff3550b79d6")
+		(members "7a343abc-c858-4725-a87b-1908a9dbd393" "aa85dedb-6bbf-4155-ab69-4ad0d9d99911"
+			"d91de346-a53a-40d6-9410-40f2be27a65a" "f2c338db-c079-41ed-90e1-4bd256e22658"
+		)
+	)
+	(embedded_fonts no)
+)
