@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.143,
-          "width": 0.635
+          "height": 0.82,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -60,7 +60,48 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "shorting_items|77342000|78690000|92b0c4da-ae98-4199-8936-e69d59ee50e4|c6f80c00-c4ab-45cd-b841-c3eb8dd655cc",
+          ""
+        ],
+        [
+          "solder_mask_bridge|77342000|78690000|c6f80c00-c4ab-45cd-b841-c3eb8dd655cc|92b0c4da-ae98-4199-8936-e69d59ee50e4",
+          ""
+        ],
+        [
+          "unconnected_items|71830000|60620000|F.Cu|4|071c7276-ecd7-460a-93f0-cca5919b85ad|64ff69ce-c75c-445f-b855-6ee37412a0c4",
+          ""
+        ],
+        [
+          "unconnected_items|79750000|105232000|F.Cu|4|737a6bb6-a54a-4e3f-b0a6-d243974afa40|e1af69fe-ecdb-4888-bbc6-0773b83eed7f",
+          ""
+        ],
+        [
+          "unconnected_items|80250000|105232000|F.Cu|4|56a9b5e6-94ba-4430-ac15-6c1c7eac43f6|138ebea4-ced6-427b-a884-b792bdf34eb6",
+          ""
+        ],
+        [
+          "unconnected_items|80750000|105232000|F.Cu|4|65f9f857-d531-4a9a-9148-ee3207b54714|d8dfca4f-d97a-4597-adc2-04ef03a153e4",
+          ""
+        ],
+        [
+          "unconnected_items|81250000|105232000|F.Cu|4|0e60e950-5e75-44a4-a7aa-58029c9580cd|8665c804-e078-4f8a-aa7e-f58f58df204b",
+          ""
+        ],
+        [
+          "unconnected_items|81750000|105232000|F.Cu|4|102188d3-cb54-4210-9da0-f8147fcfb61b|21eea440-1cfe-45b7-a726-5bb8d0bc2511",
+          ""
+        ],
+        [
+          "unconnected_items|81750000|105232000|F.Cu|4|3e58c620-fee6-4c42-b1f7-8f54afdc3b0f|508f8f8b-e297-4267-95fb-9e1fb1bf2b9c",
+          ""
+        ],
+        [
+          "unconnected_items|82250000|105232000|F.Cu|4|a923359d-3397-410f-8348-cfbb3ebbc1fb|1bfb29db-fa9e-4e01-891b-30a7839f90d4",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
