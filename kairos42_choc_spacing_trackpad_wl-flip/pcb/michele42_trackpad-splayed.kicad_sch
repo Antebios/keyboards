@@ -6,10 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "VF-31A Kairos Choc RGB")
-		(rev "v1.0.0-rc2")
-		(comment 1 "X=18.5mm; Y=17.5mm")
-		(comment 2 "Spaced for MBK Glow R2 Choc Keycap Set")
-		(comment 3 "Cirque Trackpad")
+		(rev "v1.0.0-rc1")
+		(comment 2 "X=18.5mm; Y=17.5mm")
+		(comment 3 "Spaced for MBK Glow R2 Choc Keycap Set")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -2371,6 +2370,212 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "mylocalSymbols1:Mini_2-Axis_Analog_Thumbstick"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Thumbstick"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Mini_2-Axis_Analog_Thumbstick_0_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 1.27)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 1.27)
+					(radius 2.8398)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Mini_2-Axis_Analog_Thumbstick_1_1"
+				(pin power_in line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "X"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 -8.89 90)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -1.27 -8.89 90)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -3.81 -8.89 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_names
@@ -3300,19 +3505,19 @@
 		)
 	)
 	(junction
-		(at 81.28 137.16)
+		(at 66.04 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fc6a79d-1b68-4498-94c9-f5b7f4a29d70")
 	)
 	(junction
-		(at 66.04 182.88)
+		(at 50.8 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10cac9bb-0c61-45ab-9e6c-2565f1877e69")
 	)
 	(junction
-		(at 96.52 137.16)
+		(at 81.28 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "126a64d4-a91a-4f24-b60a-44cac422af9e")
@@ -3330,7 +3535,7 @@
 		(uuid "1530079d-2572-4e08-b856-1d24afcdc92d")
 	)
 	(junction
-		(at 96.52 152.4)
+		(at 81.28 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a117225-74f7-4c36-bdca-51fb71de0eae")
@@ -3342,13 +3547,13 @@
 		(uuid "1df7d384-0486-40a7-b245-fb947dbb67e4")
 	)
 	(junction
-		(at 96.52 126.365)
+		(at 81.28 126.365)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2004a251-7465-4666-91f6-d91a94f04842")
 	)
 	(junction
-		(at 66.04 167.64)
+		(at 50.8 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "288aff57-d29a-4293-aa73-2385283365d5")
@@ -3364,12 +3569,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30f2db36-b0fa-4213-be1d-c644140866cd")
-	)
-	(junction
-		(at 191.77 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "390d08aa-97da-40e5-ba9d-025dfba891d6")
 	)
 	(junction
 		(at 181.61 76.2)
@@ -3396,7 +3595,7 @@
 		(uuid "474cea2e-58f3-4c65-87ae-566b94466fa3")
 	)
 	(junction
-		(at 66.04 137.16)
+		(at 50.8 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54b930a0-c7bb-4b96-ac2c-4663303e0124")
@@ -3408,7 +3607,7 @@
 		(uuid "569e2b6e-b98c-47f1-bf2f-2d67cf28a86a")
 	)
 	(junction
-		(at 81.28 167.64)
+		(at 66.04 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "578dd291-8d64-471c-ae21-7d8dc398912a")
@@ -3420,13 +3619,13 @@
 		(uuid "6264bf71-3573-4841-8cde-1e4ef5c98527")
 	)
 	(junction
-		(at 50.8 167.64)
+		(at 35.56 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6315f3a3-863a-4273-8c3a-d1db844817e8")
 	)
 	(junction
-		(at 35.56 167.64)
+		(at 20.32 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64a0e662-99ee-4013-994a-61243ad813df")
@@ -3438,7 +3637,7 @@
 		(uuid "6ab7696c-3900-4b06-ad50-e4f2ba68e701")
 	)
 	(junction
-		(at 50.8 152.4)
+		(at 35.56 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ce5b3bb-b71d-4b87-af7b-0d80dde19f0e")
@@ -3480,19 +3679,19 @@
 		(uuid "7c2c2c53-c7e4-4901-af57-77fbb64827b8")
 	)
 	(junction
-		(at 127 126.365)
+		(at 111.76 126.365)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dbc589e-3dd6-4803-8e27-1a82c3b1f2fa")
 	)
 	(junction
-		(at 127 193.04)
+		(at 111.76 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ebc3eba-ff60-4d63-84cb-cfd50f7eafa3")
 	)
 	(junction
-		(at 50.8 137.16)
+		(at 35.56 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ed194d0-2dd9-4545-9ac8-396b4d85b2f7")
@@ -3504,31 +3703,25 @@
 		(uuid "86089364-30ec-4812-8255-fa31a0b7684e")
 	)
 	(junction
-		(at 35.56 152.4)
+		(at 20.32 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8672a3fb-e46a-4274-8927-e3eb098f1478")
 	)
 	(junction
-		(at 208.28 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91b675fe-31df-4a04-a19f-33c213672959")
-	)
-	(junction
-		(at 50.8 182.88)
+		(at 35.56 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96362aaf-c4ed-47e2-9e73-5ce8ef9d07db")
 	)
 	(junction
-		(at 127 152.4)
+		(at 111.76 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96e024ba-7e41-409e-b2b5-5561e2627c50")
 	)
 	(junction
-		(at 35.56 137.16)
+		(at 20.32 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96f3288c-22b8-432b-86af-c0e289511894")
@@ -3552,28 +3745,34 @@
 		(uuid "9ed6c626-e204-48da-b2b9-f524f29e470b")
 	)
 	(junction
-		(at 81.28 193.04)
+		(at 66.04 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2dee945-6289-4c19-928d-a4523a287b5b")
 	)
 	(junction
-		(at 66.04 126.365)
+		(at 50.8 126.365)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a55350c6-299b-484c-9233-29c99549150b")
 	)
 	(junction
-		(at 96.52 167.64)
+		(at 81.28 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a64b57ac-9dcd-4bd8-bf9d-b75731c29205")
 	)
 	(junction
-		(at 111.76 167.64)
+		(at 96.52 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7bcd4ef-161d-4f24-923c-51972027fcac")
+	)
+	(junction
+		(at 133.35 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab7e5e1d-5d56-4c3b-b151-82c26b1f2962")
 	)
 	(junction
 		(at 260.35 62.23)
@@ -3582,13 +3781,19 @@
 		(uuid "b03b4c9a-2db2-4fe8-8f9b-2f5043b257ab")
 	)
 	(junction
+		(at 128.27 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3ad48c6-d905-4ab5-a167-41d27e3c63b1")
+	)
+	(junction
 		(at 176.53 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb1afd89-5043-4955-a364-8059c3be4a9f")
 	)
 	(junction
-		(at 111.76 137.16)
+		(at 96.52 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd16b4fa-d582-440c-b92d-4632ec2105f1")
@@ -3600,7 +3805,7 @@
 		(uuid "c236c10f-860b-4925-ac55-10c6b972f540")
 	)
 	(junction
-		(at 66.04 152.4)
+		(at 50.8 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c255fba0-f067-4463-ac16-39e132ebb48d")
@@ -3618,7 +3823,7 @@
 		(uuid "cfc61f52-305a-4412-a563-f0bb1c3dc0c7")
 	)
 	(junction
-		(at 111.76 152.4)
+		(at 96.52 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5dde540-2c97-49c0-8cb3-7b50bcd39a3f")
@@ -3630,7 +3835,7 @@
 		(uuid "d6539684-1dce-4e24-9685-b26b308056ec")
 	)
 	(junction
-		(at 127 137.16)
+		(at 111.76 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd6f9107-653d-4e0c-8d1f-ac9c9a1683e1")
@@ -3642,7 +3847,7 @@
 		(uuid "e218fe6a-b2da-44c6-b0ca-3ca7221f67c3")
 	)
 	(junction
-		(at 81.28 152.4)
+		(at 66.04 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3cac15b-d0da-4a94-aae8-3963d197b9d5")
@@ -3660,7 +3865,13 @@
 		(uuid "eaa3ca03-402c-48fd-bdaa-4c02f466bc48")
 	)
 	(junction
-		(at 81.28 182.88)
+		(at 191.77 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2e13894-8c8c-43a1-a38f-e66ab294f644")
+	)
+	(junction
+		(at 66.04 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3327085-3e50-4ea9-bb5a-bd564c512a7d")
@@ -3684,36 +3895,12 @@
 		(uuid "fa752251-aec7-48d8-a83d-7415b56e2609")
 	)
 	(no_connect
-		(at 119.38 129.54)
+		(at 104.14 129.54)
 		(uuid "197d756e-b6df-4c60-8155-459292a500a9")
 	)
 	(no_connect
-		(at 53.34 106.68)
-		(uuid "49d06888-224c-492b-a017-38e98b17d470")
-	)
-	(no_connect
-		(at 53.34 111.76)
-		(uuid "53bbd6a4-754e-4117-aa05-92c21be61a20")
-	)
-	(no_connect
-		(at 53.34 99.06)
-		(uuid "84c6b8fe-9b55-411c-9ecb-9148630bdf32")
-	)
-	(no_connect
-		(at 53.34 114.3)
-		(uuid "8b0b970c-01ef-42eb-8ff2-0ae8ae56e369")
-	)
-	(no_connect
-		(at 53.34 109.22)
-		(uuid "c08a838d-a4c5-4855-8cee-5c442dd85a4c")
-	)
-	(no_connect
-		(at 53.34 116.84)
-		(uuid "e214bdcd-f6d4-419b-92bd-4144c57a1980")
-	)
-	(no_connect
-		(at 53.34 101.6)
-		(uuid "e7d9d8ef-4d58-4e7e-adb5-f3f72def7da3")
+		(at 27.94 39.37)
+		(uuid "7f2da8cc-178a-486e-a279-7be2e9df3f83")
 	)
 	(no_connect
 		(at 27.94 41.91)
@@ -3721,7 +3908,27 @@
 	)
 	(wire
 		(pts
-			(xy 127 137.16) (xy 127 152.4)
+			(xy 140.97 90.17) (xy 142.875 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02688704-65a4-44f8-97f9-fe884a5b8a0b")
+	)
+	(wire
+		(pts
+			(xy 133.35 96.52) (xy 133.35 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e09a31-5402-4144-8ac8-74c718a1b06e")
+	)
+	(wire
+		(pts
+			(xy 111.76 137.16) (xy 111.76 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3741,7 +3948,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 152.4) (xy 50.8 167.64)
+			(xy 35.56 152.4) (xy 35.56 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3751,7 +3958,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 126.365) (xy 35.56 137.16)
+			(xy 20.32 126.365) (xy 20.32 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3761,7 +3968,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 175.26) (xy 119.38 175.26)
+			(xy 88.9 175.26) (xy 104.14 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3781,7 +3988,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 167.64) (xy 35.56 182.88)
+			(xy 20.32 167.64) (xy 20.32 182.88)
 		)
 		(stroke
 			(width 0)
@@ -3791,7 +3998,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 137.16) (xy 96.52 152.4)
+			(xy 81.28 137.16) (xy 81.28 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3811,7 +4018,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 126.365) (xy 96.52 137.16)
+			(xy 81.28 126.365) (xy 81.28 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3821,7 +4028,17 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 152.4) (xy 66.04 167.64)
+			(xy 128.27 96.52) (xy 128.27 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e1c029-462c-4a08-8f02-4bb8392cdae6")
+	)
+	(wire
+		(pts
+			(xy 50.8 152.4) (xy 50.8 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3831,7 +4048,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 190.5) (xy 58.42 190.5)
+			(xy 27.94 190.5) (xy 43.18 190.5)
 		)
 		(stroke
 			(width 0)
@@ -3851,7 +4068,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 126.365) (xy 127 126.365)
+			(xy 81.28 126.365) (xy 111.76 126.365)
 		)
 		(stroke
 			(width 0)
@@ -3871,7 +4088,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 137.16) (xy 66.04 152.4)
+			(xy 50.8 137.16) (xy 50.8 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3931,6 +4148,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 110.49) (xy 135.89 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40579389-4d64-45b7-9385-068420135af9")
+	)
+	(wire
+		(pts
 			(xy 223.52 60.96) (xy 238.76 60.96)
 		)
 		(stroke
@@ -3941,7 +4168,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 125.73) (xy 127 126.365)
+			(xy 111.76 125.73) (xy 111.76 126.365)
 		)
 		(stroke
 			(width 0)
@@ -3971,7 +4198,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 126.365) (xy 66.04 126.365)
+			(xy 20.32 126.365) (xy 50.8 126.365)
 		)
 		(stroke
 			(width 0)
@@ -4011,7 +4238,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 137.16) (xy 35.56 152.4)
+			(xy 20.32 137.16) (xy 20.32 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4061,6 +4288,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 100.33) (xy 128.27 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61813431-3fe1-47c0-8c06-56a034c809d8")
+	)
+	(wire
+		(pts
 			(xy 127.635 62.23) (xy 132.08 62.23)
 		)
 		(stroke
@@ -4071,7 +4308,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 182.88) (xy 81.28 193.04)
+			(xy 66.04 182.88) (xy 66.04 193.04)
 		)
 		(stroke
 			(width 0)
@@ -4091,7 +4328,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 190.5) (xy 88.9 190.5)
+			(xy 58.42 190.5) (xy 73.66 190.5)
 		)
 		(stroke
 			(width 0)
@@ -4141,7 +4378,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 182.88) (xy 50.8 193.04)
+			(xy 35.56 182.88) (xy 35.56 193.04)
 		)
 		(stroke
 			(width 0)
@@ -4171,7 +4408,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 137.16) (xy 111.76 152.4)
+			(xy 96.52 137.16) (xy 96.52 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4181,17 +4418,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 167.64) (xy 96.52 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a3bec0b-10b6-4c09-b191-c5c4402b14b5")
-	)
-	(wire
-		(pts
-			(xy 81.28 152.4) (xy 81.28 167.64)
+			(xy 66.04 152.4) (xy 66.04 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4231,7 +4458,17 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 152.4) (xy 111.76 167.64)
+			(xy 133.35 102.87) (xy 135.89 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83101aa7-5789-49c5-a70d-f0d635eb2fe2")
+	)
+	(wire
+		(pts
+			(xy 96.52 152.4) (xy 96.52 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4291,7 +4528,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 152.4) (xy 96.52 167.64)
+			(xy 81.28 152.4) (xy 81.28 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4311,7 +4548,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 126.365) (xy 66.04 137.16)
+			(xy 50.8 126.365) (xy 50.8 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4321,7 +4558,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 193.04) (xy 127 193.04)
+			(xy 66.04 193.04) (xy 111.76 193.04)
 		)
 		(stroke
 			(width 0)
@@ -4371,7 +4608,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 167.64) (xy 66.04 182.88)
+			(xy 50.8 167.64) (xy 50.8 182.88)
 		)
 		(stroke
 			(width 0)
@@ -4388,6 +4625,16 @@
 			(type default)
 		)
 		(uuid "a4abd10e-4f86-4925-b7cc-1e84ce8f7d91")
+	)
+	(wire
+		(pts
+			(xy 73.66 190.5) (xy 73.66 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aabc56ee-c438-4ed2-becc-1eb541fac355")
 	)
 	(wire
 		(pts
@@ -4431,7 +4678,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 152.4) (xy 127 167.64)
+			(xy 111.76 152.4) (xy 111.76 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4441,7 +4688,17 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 126.365) (xy 96.52 126.365)
+			(xy 128.27 100.33) (xy 128.27 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b11dc8bb-6714-402c-b589-7ac75afb601d")
+	)
+	(wire
+		(pts
+			(xy 50.8 126.365) (xy 81.28 126.365)
 		)
 		(stroke
 			(width 0)
@@ -4461,23 +4718,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 193.04) (xy 81.28 193.04)
+			(xy 35.56 193.04) (xy 66.04 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b8e67cfd-7ae1-4e3e-8e6d-136860cd7eb6")
-	)
-	(wire
-		(pts
-			(xy 223.52 104.14) (xy 208.28 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd32a38d-0bbb-4fb0-8f31-a5d6b596bede")
 	)
 	(wire
 		(pts
@@ -4491,7 +4738,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 167.64) (xy 50.8 182.88)
+			(xy 35.56 167.64) (xy 35.56 182.88)
 		)
 		(stroke
 			(width 0)
@@ -4508,6 +4755,16 @@
 			(type default)
 		)
 		(uuid "c1d0f3d3-5b52-4195-a36b-321a42cf03c3")
+	)
+	(wire
+		(pts
+			(xy 133.35 96.52) (xy 143.51 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f26797-3651-488a-990e-2e1f96b567f5")
 	)
 	(wire
 		(pts
@@ -4528,6 +4785,16 @@
 			(type default)
 		)
 		(uuid "c4bb0925-c40b-4f98-9623-bf918d0df460")
+	)
+	(wire
+		(pts
+			(xy 191.77 104.14) (xy 208.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6147cd1-dd1f-4068-a459-b22566e56d87")
 	)
 	(wire
 		(pts
@@ -4561,7 +4828,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 152.4) (xy 35.56 167.64)
+			(xy 20.32 152.4) (xy 20.32 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4601,7 +4868,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 129.54) (xy 73.66 129.54)
+			(xy 43.18 129.54) (xy 58.42 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4631,7 +4898,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 137.16) (xy 81.28 152.4)
+			(xy 66.04 137.16) (xy 66.04 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4651,23 +4918,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 129.54) (xy 104.14 129.54)
+			(xy 73.66 129.54) (xy 88.9 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f0723969-6227-4eca-b485-900f92a6c029")
-	)
-	(wire
-		(pts
-			(xy 191.77 104.14) (xy 208.28 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1e34330-cd67-4f38-ab04-0918e0a0df8c")
 	)
 	(wire
 		(pts
@@ -4681,7 +4938,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 137.16) (xy 50.8 152.4)
+			(xy 143.51 95.885) (xy 143.51 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45b2066-13e0-42c2-8648-70977afc2e9f")
+	)
+	(wire
+		(pts
+			(xy 35.56 137.16) (xy 35.56 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4691,7 +4958,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 167.64) (xy 81.28 182.88)
+			(xy 66.04 167.64) (xy 66.04 182.88)
 		)
 		(stroke
 			(width 0)
@@ -4751,7 +5018,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 126.365) (xy 127 137.16)
+			(xy 111.76 126.365) (xy 111.76 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4795,7 +5062,7 @@
 	)
 	(global_label "LED"
 		(shape input)
-		(at 27.94 24.13 180)
+		(at 27.94 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4805,7 +5072,7 @@
 		)
 		(uuid "018ef15f-4f5c-483a-8cf9-9a711e33429f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.5077 24.13 0)
+			(at 21.5077 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4854,6 +5121,30 @@
 		(uuid "0f31dcf0-2fcd-4ca7-ac1e-4faa7d47d668")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 74.7267 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ThumbY"
+		(shape input)
+		(at 130.81 96.52 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0fc7bdce-c9cc-46bb-b892-fd12d5b5b955")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.81 106.7017 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5129,17 +5420,17 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 58.42 34.29 0)
+		(at 27.94 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "4d99b7ad-2e12-4b9f-bccb-875f135e4983")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.9733 34.29 0)
+			(at 21.3867 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5147,7 +5438,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -5201,7 +5492,7 @@
 	)
 	(global_label "CS"
 		(shape input)
-		(at 27.94 39.37 180)
+		(at 19.05 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5211,7 +5502,7 @@
 		)
 		(uuid "562927e9-3883-4127-a920-ac745e0b776b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.4753 39.37 0)
+			(at 13.5853 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5249,7 +5540,7 @@
 	)
 	(global_label "SCK"
 		(shape input)
-		(at 27.94 36.83 180)
+		(at 19.05 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5259,7 +5550,7 @@
 		)
 		(uuid "5e368e73-d65f-4566-bb1c-fd0a1541dbf8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.2053 36.83 0)
+			(at 12.3153 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5393,7 +5684,7 @@
 	)
 	(global_label "LED"
 		(shape input)
-		(at 43.18 129.54 0)
+		(at 27.94 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5403,7 +5694,7 @@
 		)
 		(uuid "a3b76325-f7e1-4752-af52-154b0bd886ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.6123 129.54 0)
+			(at 34.3723 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5439,6 +5730,30 @@
 			)
 		)
 	)
+	(global_label "ThumbY"
+		(shape input)
+		(at 58.42 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7591e9c-6abb-49f4-9897-45a3b0fa6fef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.6017 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Column 5"
 		(shape input)
 		(at 260.35 45.72 90)
@@ -5465,17 +5780,17 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 58.42 36.83 0)
+		(at 27.94 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ae0e9f26-84c3-4772-a5f0-4214349ba1a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.9128 36.83 0)
+			(at 21.4472 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5483,7 +5798,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -5561,7 +5876,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 27.94 34.29 180)
+		(at 19.05 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5570,7 +5885,7 @@
 		)
 		(uuid "b7301768-cc85-4c25-96c6-1ec601fd885e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 34.29 0)
+			(at 19.05 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5676,6 +5991,30 @@
 			)
 		)
 	)
+	(global_label "ThumbX"
+		(shape input)
+		(at 140.97 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2ba2f42-693b-4b9b-8fcf-7b895776325b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.2726 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Column 5"
 		(shape input)
 		(at 58.42 52.07 0)
@@ -5689,6 +6028,30 @@
 		(uuid "cdffde0f-7b70-4ab3-9a20-ffd90090fe7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 70.6578 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ThumbX"
+		(shape input)
+		(at 58.42 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d01cf6a3-af91-4b8a-80c9-e35c81f08ea7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.7226 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5820,7 +6183,7 @@
 	)
 	(global_label "DRDY"
 		(shape input)
-		(at 27.94 26.67 180)
+		(at 27.94 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5830,7 +6193,7 @@
 		)
 		(uuid "fcf71e85-797c-45f2-800c-4cf6d3761ecf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.0562 26.67 0)
+			(at 20.0562 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5878,7 +6241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00243c73-8071-44bd-8027-04c9b34ae3cc")
-		(property "Reference" "S21"
+		(property "Reference" "S12"
 			(at 261.62 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5939,9 +6302,9 @@
 			(uuid "833983d2-2a35-435a-b5b1-60d3935004c2")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "S21")
+					(reference "S12")
 					(unit 1)
 				)
 			)
@@ -5959,7 +6322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00cedfc5-6009-4272-b6a4-cd2852e12774")
-		(property "Reference" "S2"
+		(property "Reference" "S7"
 			(at 182.88 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6020,9 +6383,9 @@
 			(uuid "d505c0b0-d3e0-4b76-b86b-b93febb1b8b0")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "S2")
+					(reference "S7")
 					(unit 1)
 				)
 			)
@@ -6030,7 +6393,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard1:LED_SK6812MINI-E-alt")
-		(at 58.42 152.4 180)
+		(at 43.18 152.4 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6039,8 +6402,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "021d2add-e880-42f7-bdbd-697836e3f2c5")
-		(property "Reference" "D6"
-			(at 61.72 156.21 0)
+		(property "Reference" "D29"
+			(at 46.48 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6050,7 +6413,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 57.15 153.67 0)
+			(at 41.91 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6060,7 +6423,7 @@
 			)
 		)
 		(property "Footprint" "mylocal_footprints:SK6812-MINI-E-double-side"
-			(at 57.15 144.78 0)
+			(at 41.91 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6072,7 +6435,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 55.88 142.875 0)
+			(at 40.64 142.875 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6084,7 +6447,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 152.4 0)
+			(at 43.18 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6106,9 +6469,9 @@
 			(uuid "e507314c-6ca3-4e49-b357-7b78868fabbe")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D6")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -6181,7 +6544,7 @@
 			)
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "H1")
 					(unit 1)
@@ -6201,7 +6564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09e1e828-fe87-47e2-acc6-0f855186a78c")
-		(property "Reference" "D30"
+		(property "Reference" "D20"
 			(at 194.31 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6284,9 +6647,9 @@
 			(uuid "2cf7f7ce-1976-4d51-8c36-2ec363043e5a")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D30")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -6304,7 +6667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a027704-6e6d-474b-ba25-61a01a379a18")
-		(property "Reference" "D44"
+		(property "Reference" "D18"
 			(at 257.81 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6387,9 +6750,9 @@
 			(uuid "82a36ebb-8bfa-4e6a-8c04-25b3be839c2f")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D44")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -6397,7 +6760,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard1:LED_SK6812MINI-E-alt")
-		(at 88.9 137.16 180)
+		(at 73.66 137.16 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6406,8 +6769,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0aadc5ab-3d01-4b80-b89a-c08d81d2cc39")
-		(property "Reference" "D13"
-			(at 92.2 140.97 0)
+		(property "Reference" "D25"
+			(at 76.96 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6417,7 +6780,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 87.63 138.43 0)
+			(at 72.39 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6427,7 +6790,7 @@
 			)
 		)
 		(property "Footprint" "mylocal_footprints:SK6812-MINI-E-double-side"
-			(at 87.63 129.54 0)
+			(at 72.39 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6439,7 +6802,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 86.36 127.635 0)
+			(at 71.12 127.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6451,7 +6814,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 137.16 0)
+			(at 73.66 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6473,9 +6836,9 @@
 			(uuid "8fd574df-25a2-4198-806a-324fc9838abc")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D13")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -6493,7 +6856,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0bbe06ad-5670-4c24-9e8f-f218ab0bd10b")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR020"
 			(at 17.78 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6551,9 +6914,9 @@
 			(uuid "13c40989-6a1e-4704-8240-35c4b4ab77eb")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "#PWR03")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6632,7 +6995,7 @@
 			(uuid "68b2fc74-af3b-405e-990b-17303f5518f9")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "S1")
 					(unit 1)
@@ -6652,7 +7015,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0cff7c06-3e52-45f4-b35c-cab3a0e9ef62")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR017"
 			(at 46.99 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6710,9 +7073,9 @@
 			(uuid "0be4dc2c-397d-4aaf-99e8-9aa2175562c2")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "#PWR06")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6720,7 +7083,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard1:LED_SK6812MINI-E-alt")
-		(at 119.38 167.64 180)
+		(at 104.14 167.64 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6729,8 +7092,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f52713f-1198-495f-8f59-b7eb333a2b43")
-		(property "Reference" "D22"
-			(at 122.68 171.45 0)
+		(property "Reference" "D39"
+			(at 107.44 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6740,7 +7103,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 118.11 168.91 0)
+			(at 102.87 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6750,7 +7113,7 @@
 			)
 		)
 		(property "Footprint" "mylocal_footprints:SK6812-MINI-E-double-side"
-			(at 118.11 160.02 0)
+			(at 102.87 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6762,7 +7125,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 116.84 158.115 0)
+			(at 101.6 158.115 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6774,7 +7137,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 167.64 0)
+			(at 104.14 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6796,9 +7159,87 @@
 			(uuid "eca08512-47b8-497b-b6ad-fd2cef7e38a7")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D22")
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 142.875 90.17 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13c35f5c-7d26-497c-9e27-22ccab9ca3e8")
+		(property "Reference" "#PWR015"
+			(at 139.065 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 146.685 90.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.875 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.875 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 142.875 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fce5e9cc-4a37-4bae-af98-66b1e4996b22")
+		)
+		(instances
+			(project "michele42"
+				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6816,7 +7257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14409fa6-4b21-4d85-ae5d-1768a2edbb11")
-		(property "Reference" "S12"
+		(property "Reference" "S21"
 			(at 214.63 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6877,9 +7318,9 @@
 			(uuid "7cf67af0-f4f3-436f-876f-df2fbb6cc501")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "S12")
+					(reference "S21")
 					(unit 1)
 				)
 			)
@@ -6897,7 +7338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16dc8655-ffe3-4e02-bcee-8a87ed1cd5d4")
-		(property "Reference" "D26"
+		(property "Reference" "D19"
 			(at 179.07 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6980,9 +7421,9 @@
 			(uuid "b1c5fdcc-0662-47ce-867f-95bc35ccd95b")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D26")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -6990,7 +7431,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard1:LED_SK6812MINI-E-alt")
-		(at 104.14 137.16 0)
+		(at 88.9 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6999,8 +7440,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ce34ea8-15db-430d-b073-d71336a97431")
-		(property "Reference" "D17"
-			(at 100.84 133.35 0)
+		(property "Reference" "D26"
+			(at 85.6 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7010,7 +7451,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 105.41 135.89 0)
+			(at 90.17 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7021,7 +7462,7 @@
 			)
 		)
 		(property "Footprint" "mylocal_footprints:SK6812-MINI-E-double-side"
-			(at 105.41 144.78 0)
+			(at 90.17 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7033,7 +7474,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 106.68 146.685 0)
+			(at 91.44 146.685 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7045,7 +7486,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 137.16 0)
+			(at 88.9 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7067,9 +7508,9 @@
 			(uuid "5f31ceee-6cc5-4df3-8ecc-5fe0f314388d")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D17")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -7142,7 +7583,7 @@
 			)
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "H6")
 					(unit 1)
@@ -7162,7 +7603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "244b0b0d-f62b-47ad-adf0-fa2f074fad2c")
-		(property "Reference" "S22"
+		(property "Reference" "S18"
 			(at 261.62 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7223,9 +7664,9 @@
 			(uuid "a88b4094-cd81-4dfd-97aa-aae200296285")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "S22")
+					(reference "S18")
 					(unit 1)
 				)
 			)
@@ -7243,7 +7684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24672a5a-9b4d-4d1f-97db-4f4e77438d17")
-		(property "Reference" "D27"
+		(property "Reference" "D2"
 			(at 194.31 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7326,9 +7767,9 @@
 			(uuid "0ebd38b4-9366-42a6-9b74-067bfc36118e")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D27")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7346,7 +7787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2632d07c-9ac9-4f33-bd4c-d9c3a051e45d")
-		(property "Reference" "S4"
+		(property "Reference" "S19"
 			(at 182.88 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7407,9 +7848,9 @@
 			(uuid "6faf7f8c-18c6-40da-8a86-52b1301b3737")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "S4")
+					(reference "S19")
 					(unit 1)
 				)
 			)
@@ -7417,7 +7858,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 127 193.04 0)
+		(at 111.76 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7427,7 +7868,7 @@
 		(dnp no)
 		(uuid "268d7e82-03ae-4187-8495-f9381a7e8d20")
 		(property "Reference" "#FLG02"
-			(at 127 191.135 0)
+			(at 111.76 191.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7438,7 +7879,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 127 188.722 0)
+			(at 111.76 188.722 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7448,7 +7889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 193.04 0)
+			(at 111.76 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7459,7 +7900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 193.04 0)
+			(at 111.76 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7470,7 +7911,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 193.04 0)
+			(at 111.76 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7483,7 +7924,7 @@
 			(uuid "986cb620-98f0-47a7-99f0-9f667ebec5ea")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "#FLG02")
 					(unit 1)
@@ -7561,7 +8002,7 @@
 			(uuid "18ef393b-c899-4f42-bb57-63280afa3038")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "JP2")
 					(unit 1)
@@ -7636,7 +8077,7 @@
 			)
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "H3")
 					(unit 1)
@@ -7656,7 +8097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c34b3d8-ae6c-4013-a57c-e3fcb2ef05ef")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR03"
 			(at 54.61 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7714,9 +8155,9 @@
 			(uuid "18d0c080-db91-43a0-bf04-74baa6d7414f")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "#PWR08")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7734,7 +8175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cde623c-d25d-488d-898c-5afc4a165da2")
-		(property "Reference" "D23"
+		(property "Reference" "D1"
 			(at 179.07 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7817,9 +8258,9 @@
 			(uuid "9c66d3cd-2394-4e8c-b827-8adbc7faa89a")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D23")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7962,7 +8403,7 @@
 			(uuid "3909cd4a-0f63-4a8e-b016-d2bf2d3c9b27")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "U1")
 					(unit 1)
@@ -7982,7 +8423,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "348337a9-2996-4357-9349-796d1183bcb0")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR019"
 			(at 27.94 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -8040,9 +8481,9 @@
 			(uuid "601a053a-7ab1-45bb-bd18-e60001d9f319")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "#PWR02")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8059,7 +8500,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a3fd641-9491-4760-8279-529812381b24")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR010"
 			(at 154.94 34.925 0)
 			(hide yes)
 			(show_name no)
@@ -8116,9 +8557,9 @@
 			(uuid "d7079165-d8cb-4ae4-b95a-d76c81cbb270")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "#PWR015")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8126,7 +8567,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard1:LED_SK6812MINI-E-alt")
-		(at 58.42 167.64 180)
+		(at 43.18 167.64 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8135,8 +8576,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3bbddb31-b829-458b-b0c9-fe27ab3f6c0c")
-		(property "Reference" "D7"
-			(at 61.72 171.45 0)
+		(property "Reference" "D35"
+			(at 46.48 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8146,7 +8587,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 57.15 168.91 0)
+			(at 41.91 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8156,7 +8597,7 @@
 			)
 		)
 		(property "Footprint" "mylocal_footprints:SK6812-MINI-E-double-side"
-			(at 57.15 160.02 0)
+			(at 41.91 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8168,7 +8609,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 55.88 158.115 0)
+			(at 40.64 158.115 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8180,7 +8621,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 167.64 0)
+			(at 43.18 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8202,9 +8643,9 @@
 			(uuid "c770c3fa-a265-41a8-a158-8dc25cb67298")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D7")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -8284,7 +8725,7 @@
 			(uuid "069ecf13-1485-44c6-936d-5b969335f35c")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "R2")
 					(unit 1)
@@ -8359,9 +8800,87 @@
 			)
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 110.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43ca4cee-3343-4df3-bb72-693a0e6b8f59")
+		(property "Reference" "#PWR014"
+			(at 152.4 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d16a975-8ae8-4637-bf7d-668cd7cf2dee")
+		)
+		(instances
+			(project "michele42"
+				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8379,7 +8898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46309f28-1e36-42c5-bbd8-9f73948eb918")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR05"
 			(at 148.59 60.325 0)
 			(hide yes)
 			(show_name no)
@@ -8437,9 +8956,87 @@
 			(uuid "6c379f23-592d-4a1d-a0e9-4114405ca849")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "#PWR013")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 140.97 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4c7fc0df-c0dd-47a0-80a8-8cf83f26d901")
+		(property "Reference" "JP7"
+			(at 140.97 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 140.97 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mylocal_footprints:jumper_data-MOD"
+			(at 140.97 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f23c858a-6b1e-407d-af58-040d53054594")
+		)
+		(pin "2"
+			(uuid "133e8dfd-aa40-406e-acde-7a55ec55ca62")
+		)
+		(instances
+			(project "michele42"
+				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -8512,7 +9109,7 @@
 			)
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "H7")
 					(unit 1)
@@ -8587,9 +9184,87 @@
 			)
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 146.05 102.87 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "541d084e-46c0-4f88-a254-c4850dd3251f")
+		(property "Reference" "#PWR016"
+			(at 142.24 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 149.86 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "932ded9e-45f3-49ac-be34-0f7885c39936")
+		)
+		(instances
+			(project "michele42"
+				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8663,7 +9338,7 @@
 			(uuid "d8190bf5-65ba-43b4-80ad-a23e279aff7f")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "#PWR09")
 					(unit 1)
@@ -8683,7 +9358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54fe595b-67bd-4aa8-8643-65c666fc09cb")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR013"
 			(at 16.51 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -8741,9 +9416,9 @@
 			(uuid "4acd4dff-1172-4f2b-b42f-7292e77faa35")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "#PWR01")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8820,7 +9495,7 @@
 			(uuid "5258fa37-dff2-4a39-b43f-b566411abfb7")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "TP3")
 					(unit 1)
@@ -8840,7 +9515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5936fe26-a49c-4865-8468-97d3bf053795")
-		(property "Reference" "S17"
+		(property "Reference" "S5"
 			(at 245.11 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8901,9 +9576,9 @@
 			(uuid "44e351a3-e905-4295-aaba-ae3bf0028f02")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "S17")
+					(reference "S5")
 					(unit 1)
 				)
 			)
@@ -8921,7 +9596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59c3add4-3475-4ed9-ac97-90cac5b339eb")
-		(property "Reference" "D35"
+		(property "Reference" "D4"
 			(at 226.06 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9004,9 +9679,9 @@
 			(uuid "8daa7d8d-9d14-446c-9585-bfb64e6ce8e6")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D35")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -9024,7 +9699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a2bd30b-369a-43e6-a6d0-6c87d7d853f5")
-		(property "Reference" "D41"
+		(property "Reference" "D17"
 			(at 241.3 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9107,9 +9782,9 @@
 			(uuid "eab3d78a-80c7-4bfb-896f-78324e136eed")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D41")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -9127,7 +9802,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b37da82-3125-4e12-b252-016a1ae83411")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 120.65 42.545 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9196,9 +9871,9 @@
 			(uuid "8e167ff3-e9a6-4ed0-bcfa-77c1543dc73a")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -9216,7 +9891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b9e4c49-3c2d-4cc2-8bff-5717e17a8c57")
-		(property "Reference" "D34"
+		(property "Reference" "D21"
 			(at 210.82 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9299,9 +9974,9 @@
 			(uuid "dcf63629-d3c9-4215-b000-f14fadbf1744")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D34")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -9377,7 +10052,7 @@
 			(uuid "cf0065e9-0a98-479f-b13b-518a49113aac")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "JP5")
 					(unit 1)
@@ -9452,7 +10127,7 @@
 			)
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "H5")
 					(unit 1)
@@ -9531,7 +10206,7 @@
 			(uuid "58f43d80-7af1-4a5d-9d16-8447dff236f0")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "RSW1")
 					(unit 1)
@@ -9551,7 +10226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63a55d56-0cef-4676-a8bb-30904204df81")
-		(property "Reference" "D40"
+		(property "Reference" "D11"
 			(at 241.3 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9634,9 +10309,9 @@
 			(uuid "56f036f4-1354-4fc5-b811-89f1dbec65f9")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D40")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -9654,7 +10329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "648579e7-c4c1-4ee1-bcec-c7f4d82e9af7")
-		(property "Reference" "D28"
+		(property "Reference" "D8"
 			(at 194.31 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9737,9 +10412,9 @@
 			(uuid "4ee8bce8-b38c-4a4d-90ef-5d7386a7caf1")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D28")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -9815,7 +10490,7 @@
 			(uuid "9cff9a5a-c27b-4d06-a4fb-d9ee756d417c")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "JP4")
 					(unit 1)
@@ -9825,7 +10500,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard1:LED_SK6812MINI-E-alt")
-		(at 73.66 182.88 0)
+		(at 58.42 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9834,8 +10509,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6697bc74-6a7d-439d-8f92-235138bf930b")
-		(property "Reference" "D12"
-			(at 70.36 179.07 0)
+		(property "Reference" "D42"
+			(at 55.12 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9845,7 +10520,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 74.93 181.61 0)
+			(at 59.69 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9855,7 +10530,7 @@
 			)
 		)
 		(property "Footprint" "mylocal_footprints:SK6812-MINI-E-double-side"
-			(at 74.93 190.5 0)
+			(at 59.69 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9867,7 +10542,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 76.2 192.405 0)
+			(at 60.96 192.405 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9879,7 +10554,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 182.88 0)
+			(at 58.42 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9901,9 +10576,9 @@
 			(uuid "698b144e-a28b-4107-a4c7-bcd95395f0f2")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D12")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -9921,7 +10596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66b8d77e-73bb-45ff-8e91-691bb3973187")
-		(property "Reference" "S3"
+		(property "Reference" "S13"
 			(at 182.88 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9982,9 +10657,9 @@
 			(uuid "7f36e6be-6d5f-465e-971d-ba8d8fa57ebb")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "S3")
+					(reference "S13")
 					(unit 1)
 				)
 			)
@@ -10061,7 +10736,7 @@
 			(uuid "aed3fb46-b789-40b1-ba2b-62322a686d08")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "TP5")
 					(unit 1)
@@ -10071,7 +10746,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 127 125.73 0)
+		(at 111.76 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10080,8 +10755,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "671f8f2e-70a3-46cd-80c5-bd7ff0c0c61a")
-		(property "Reference" "#FLG01"
-			(at 127 123.825 0)
+		(property "Reference" "#FLG04"
+			(at 111.76 123.825 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10092,7 +10767,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 133.35 124.46 0)
+			(at 118.11 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10102,7 +10777,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 125.73 0)
+			(at 111.76 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10113,7 +10788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 125.73 0)
+			(at 111.76 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10124,7 +10799,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 125.73 0)
+			(at 111.76 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10137,9 +10812,9 @@
 			(uuid "73e18006-acb2-4787-9538-7581b0061467")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "#FLG01")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -10157,7 +10832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68eb2244-6bb0-4ecb-8091-37c32b5b4df6")
-		(property "Reference" "S14"
+		(property "Reference" "S10"
 			(at 229.87 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10218,9 +10893,99 @@
 			(uuid "46c1708e-cace-4a24-acd9-e5a97e620836")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "S14")
+					(reference "S10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mylocalSymbols1:Mini_2-Axis_Analog_Thumbstick")
+		(at 132.08 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6a2dad0a-e2b9-4b82-ad1d-7e00230e967a")
+		(property "Reference" "Thumbstick1"
+			(at 132.08 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 132.08 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mylocal_footprints:Mini 2-Axis Analog Thumbstick"
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69ccdbb2-b6bd-4dbd-b216-1929bb621bab")
+		)
+		(pin "6"
+			(uuid "85c8a4b4-0f33-4671-96f1-65d9a5d54bb4")
+		)
+		(pin "4"
+			(uuid "4a48277c-6f64-42ef-93cf-04e69f5c34ec")
+		)
+		(pin "2"
+			(uuid "ec346a29-5598-436d-a6ff-79bafe633e1c")
+		)
+		(pin "3"
+			(uuid "55608e91-a52d-438b-b99c-8f4b5f055914")
+		)
+		(pin "5"
+			(uuid "820f177c-22ae-42c8-8d7e-8c454c57ddfa")
+		)
+		(instances
+			(project "michele42"
+				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
+					(reference "Thumbstick1")
 					(unit 1)
 				)
 			)
@@ -10297,7 +11062,7 @@
 			(uuid "ed63ae6f-34b5-49d9-b97a-3e71a1cfc93b")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "TP1")
 					(unit 1)
@@ -10307,7 +11072,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard1:LED_SK6812MINI-E-alt")
-		(at 43.18 152.4 0)
+		(at 27.94 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10316,8 +11081,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6bce9a5f-75c6-413d-9ffc-402bc9ad0e5b")
-		(property "Reference" "D2"
-			(at 39.88 148.59 0)
+		(property "Reference" "D28"
+			(at 24.64 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10327,7 +11092,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 44.45 151.13 0)
+			(at 29.21 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10338,7 +11103,7 @@
 			)
 		)
 		(property "Footprint" "mylocal_footprints:SK6812-MINI-E-double-side"
-			(at 44.45 160.02 0)
+			(at 29.21 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10350,7 +11115,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 45.72 161.925 0)
+			(at 30.48 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10362,7 +11127,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 152.4 0)
+			(at 27.94 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10384,9 +11149,9 @@
 			(uuid "d5bee6ef-61d9-404f-bc2f-afd4444e1bce")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D2")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -10404,7 +11169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c2bee7c-b714-4991-be21-a38c1298d401")
-		(property "Reference" "D37"
+		(property "Reference" "D16"
 			(at 226.06 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10487,9 +11252,9 @@
 			(uuid "e3c8fe28-e3f9-4c94-a811-c96fac338460")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D37")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -10497,7 +11262,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard1:LED_SK6812MINI-E-alt")
-		(at 73.66 152.4 0)
+		(at 58.42 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10506,8 +11271,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c3f2f39-0b37-4912-b301-1b33c4ff8638")
-		(property "Reference" "D10"
-			(at 70.36 148.59 0)
+		(property "Reference" "D30"
+			(at 55.12 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10517,7 +11282,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 74.93 151.13 0)
+			(at 59.69 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10527,7 +11292,7 @@
 			)
 		)
 		(property "Footprint" "mylocal_footprints:SK6812-MINI-E-double-side"
-			(at 74.93 160.02 0)
+			(at 59.69 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10539,7 +11304,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 76.2 161.925 0)
+			(at 60.96 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10551,7 +11316,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 152.4 0)
+			(at 58.42 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10573,9 +11338,9 @@
 			(uuid "0d5f03d5-f298-4b00-b421-fba893bfbcd2")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D10")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -10651,7 +11416,7 @@
 			(uuid "0edc9923-718e-45f2-adbc-031634bc8db2")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "JP1")
 					(unit 1)
@@ -10730,7 +11495,7 @@
 			(uuid "4d8d9d91-8c57-4b36-983d-e6a513972b83")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "TP4")
 					(unit 1)
@@ -10812,7 +11577,7 @@
 			(uuid "e23d06d9-f140-4938-9204-fc89e0f2faa9")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "R1")
 					(unit 1)
@@ -10832,7 +11597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75f0fa0a-6932-493b-a5b3-da8e9d94ab79")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR01"
 			(at 64.77 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -10890,9 +11655,9 @@
 			(uuid "648115c6-8a51-4bc2-978f-4ee37cf834ae")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "#PWR07")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -10909,7 +11674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7973161e-48c6-4851-8f8b-664db3985259")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR04"
 			(at 138.43 53.975 0)
 			(hide yes)
 			(show_name no)
@@ -10966,9 +11731,9 @@
 			(uuid "11a7527a-1329-44b6-a239-5aa7b3d9b817")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "#PWR012")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -10976,7 +11741,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard1:LED_SK6812MINI-E-alt")
-		(at 88.9 152.4 180)
+		(at 73.66 152.4 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10985,8 +11750,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83de22b3-fc7b-421d-a9d1-8a6473a78b6e")
-		(property "Reference" "D14"
-			(at 92.2 156.21 0)
+		(property "Reference" "D31"
+			(at 76.96 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10996,7 +11761,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 87.63 153.67 0)
+			(at 72.39 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11006,7 +11771,7 @@
 			)
 		)
 		(property "Footprint" "mylocal_footprints:SK6812-MINI-E-double-side"
-			(at 87.63 144.78 0)
+			(at 72.39 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11018,7 +11783,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 86.36 142.875 0)
+			(at 71.12 142.875 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11030,7 +11795,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 152.4 0)
+			(at 73.66 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11052,9 +11817,9 @@
 			(uuid "b3f45382-0d2f-4123-b8a3-148e8d255237")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D14")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -11072,7 +11837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85c230f6-7626-4ca9-8e5b-03f8bad30230")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 27.94 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11129,9 +11894,9 @@
 			(uuid "952450e8-9362-488c-abdd-9f8b38e2d7b1")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "#PWR04")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -11149,7 +11914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "872fbc44-1514-4213-a29d-0d2340a5f77c")
-		(property "Reference" "S18"
+		(property "Reference" "S11"
 			(at 245.11 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11210,9 +11975,9 @@
 			(uuid "a96e067b-71f6-42b9-adae-f47079989ca0")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "S18")
+					(reference "S11")
 					(unit 1)
 				)
 			)
@@ -11230,7 +11995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87cb7f67-7072-4939-86c5-bdb8461afd13")
-		(property "Reference" "S13"
+		(property "Reference" "S4"
 			(at 229.87 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11291,9 +12056,9 @@
 			(uuid "766b0dd1-b08f-4579-a807-c94ecb7c6623")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "S13")
+					(reference "S4")
 					(unit 1)
 				)
 			)
@@ -11311,7 +12076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88b9ee70-4d1f-4a6d-ba1a-c729f3f1c431")
-		(property "Reference" "S5"
+		(property "Reference" "S2"
 			(at 198.12 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11372,17 +12137,17 @@
 			(uuid "bca9f76e-598c-4327-af55-2879f8bf09d1")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "S5")
+					(reference "S2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 223.52 100.33 90)
+		(lib_id "power:PWR_FLAG")
+		(at 143.51 95.885 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11390,32 +12155,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c37c6a2-5105-4561-af27-953376de39c4")
-		(property "Reference" "D38"
-			(at 226.06 99.0599 90)
+		(uuid "8bddc2fd-2453-4ca0-8f71-9e69874f6295")
+		(property "Reference" "#FLG03"
+			(at 143.51 93.98 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "Diode"
-			(at 226.06 101.5999 90)
+		(property "Value" "PWR_FLAG"
+			(at 149.86 94.615 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "mylocal_footprints:Diode_SOD-123-double-sided"
-			(at 223.52 100.33 0)
+		(property "Footprint" ""
+			(at 143.51 95.885 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11426,7 +12189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 100.33 0)
+			(at 143.51 95.885 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11437,29 +12200,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 223.52 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 223.52 100.33 0)
-			(hide yes)
+			(at 143.51 95.885 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11469,15 +12210,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0e212790-60ae-490c-9ce4-8b6b80aac49a")
-		)
-		(pin "2"
-			(uuid "1287de93-44c4-4507-8809-6bcc93c682d1")
+			(uuid "a342c664-5fca-4688-962f-d5fe10428ec8")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D38")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -11494,7 +12232,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d216732-633d-44bd-b4d4-d39a2b84928f")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR08"
 			(at 154.94 27.305 0)
 			(hide yes)
 			(show_name no)
@@ -11551,9 +12289,9 @@
 			(uuid "5eca2632-61b7-4014-9e03-642e636f5c7f")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "#PWR014")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -11571,7 +12309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ecee78e-bee9-4f71-98b0-b1d377196879")
-		(property "Reference" "S9"
+		(property "Reference" "S3"
 			(at 214.63 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11632,9 +12370,87 @@
 			(uuid "43c96aea-0a22-49e4-887c-aadf8f99aad7")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "S9")
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f0f7ea5-596d-4f14-8b14-d08880b5746c")
+		(property "Reference" "#PWR02"
+			(at 147.32 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45817443-de35-4182-a366-6eae8161fe16")
+		)
+		(instances
+			(project "michele42"
+				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -11652,7 +12468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91ac748a-09c3-4303-8f0c-70946ec98b22")
-		(property "Reference" "S10"
+		(property "Reference" "S9"
 			(at 214.63 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11713,9 +12529,9 @@
 			(uuid "5736167f-c570-4c65-a61b-6efab13d8d7c")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "S10")
+					(reference "S9")
 					(unit 1)
 				)
 			)
@@ -11733,7 +12549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "942810c4-e355-447f-a8aa-5b768d837cc3")
-		(property "Reference" "D43"
+		(property "Reference" "D12"
 			(at 257.81 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11816,9 +12632,9 @@
 			(uuid "ce14c559-4c52-46ba-8f82-40ae82d4c35c")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D43")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -11826,7 +12642,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 193.04 90)
+		(at 111.76 193.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11836,8 +12652,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "944a4c45-800d-4b7e-9f6f-7f1e0a752841")
-		(property "Reference" "#PWR011"
-			(at 133.35 193.04 0)
+		(property "Reference" "#PWR012"
+			(at 118.11 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11848,7 +12664,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 193.04 90)
+			(at 115.57 193.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11859,7 +12675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 193.04 0)
+			(at 111.76 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11870,7 +12686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 193.04 0)
+			(at 111.76 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11881,7 +12697,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 193.04 0)
+			(at 111.76 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11894,9 +12710,9 @@
 			(uuid "d7fab0d4-7f1d-4ed9-828f-03084e0c9c4f")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -11904,7 +12720,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard1:LED_SK6812MINI-E-alt")
-		(at 88.9 167.64 180)
+		(at 73.66 167.64 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11913,8 +12729,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e59b580-bd9f-4156-9beb-d00278c7e74d")
-		(property "Reference" "D15"
-			(at 92.2 171.45 0)
+		(property "Reference" "D37"
+			(at 76.96 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11924,7 +12740,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 87.63 168.91 0)
+			(at 72.39 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11934,7 +12750,7 @@
 			)
 		)
 		(property "Footprint" "mylocal_footprints:SK6812-MINI-E-double-side"
-			(at 87.63 160.02 0)
+			(at 72.39 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11946,7 +12762,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 86.36 158.115 0)
+			(at 71.12 158.115 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11958,7 +12774,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 167.64 0)
+			(at 73.66 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11980,9 +12796,9 @@
 			(uuid "04f8314b-eaf2-4c57-ba92-8bab168d5214")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D15")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -11990,7 +12806,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard1:LED_SK6812MINI-E-alt")
-		(at 104.14 167.64 0)
+		(at 88.9 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11999,8 +12815,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0b403e3-564d-4b4b-9504-644df117cd55")
-		(property "Reference" "D19"
-			(at 100.84 163.83 0)
+		(property "Reference" "D38"
+			(at 85.6 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12010,7 +12826,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 105.41 166.37 0)
+			(at 90.17 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12021,7 +12837,7 @@
 			)
 		)
 		(property "Footprint" "mylocal_footprints:SK6812-MINI-E-double-side"
-			(at 105.41 175.26 0)
+			(at 90.17 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12033,7 +12849,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 106.68 177.165 0)
+			(at 91.44 177.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12045,7 +12861,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 167.64 0)
+			(at 88.9 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12067,9 +12883,9 @@
 			(uuid "5f1bafcd-7f65-4910-bd4b-5cd1eb156ef5")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D19")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -12077,7 +12893,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard1:LED_SK6812MINI-E-alt")
-		(at 43.18 182.88 0)
+		(at 27.94 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12086,8 +12902,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4024c73-ec62-40b9-a074-57f7e143825c")
-		(property "Reference" "D4"
-			(at 39.88 179.07 0)
+		(property "Reference" "D40"
+			(at 24.64 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12097,7 +12913,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 44.45 181.61 0)
+			(at 29.21 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12107,7 +12923,7 @@
 			)
 		)
 		(property "Footprint" "mylocal_footprints:SK6812-MINI-E-double-side"
-			(at 44.45 190.5 0)
+			(at 29.21 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12119,7 +12935,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 45.72 192.405 0)
+			(at 30.48 192.405 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12131,7 +12947,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 182.88 0)
+			(at 27.94 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12153,9 +12969,9 @@
 			(uuid "6bb143f9-5d94-4ca9-9dd6-b0cf705be613")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D4")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -12173,7 +12989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4027cd3-b1a2-46a5-827e-000a9c560220")
-		(property "Reference" "D29"
+		(property "Reference" "D14"
 			(at 194.31 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12256,9 +13072,9 @@
 			(uuid "3c416234-bf96-47f2-90a7-b2dd3c74d286")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D29")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -12276,7 +13092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abf399b3-641a-4bfd-9ac8-8080af41fc17")
-		(property "Reference" "D32"
+		(property "Reference" "D9"
 			(at 210.82 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12359,9 +13175,9 @@
 			(uuid "27339ec9-4cb7-49a9-90ff-b08360b5c15a")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D32")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -12369,7 +13185,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard1:LED_SK6812MINI-E-alt")
-		(at 119.38 152.4 180)
+		(at 104.14 152.4 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12378,8 +13194,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b14b89fb-a81a-42a6-8350-3a4d57f62b80")
-		(property "Reference" "D21"
-			(at 122.68 156.21 0)
+		(property "Reference" "D33"
+			(at 107.44 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12389,7 +13205,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 118.11 153.67 0)
+			(at 102.87 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12399,7 +13215,7 @@
 			)
 		)
 		(property "Footprint" "mylocal_footprints:SK6812-MINI-E-double-side"
-			(at 118.11 144.78 0)
+			(at 102.87 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12411,7 +13227,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 116.84 142.875 0)
+			(at 101.6 142.875 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12423,7 +13239,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 152.4 0)
+			(at 104.14 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12445,9 +13261,9 @@
 			(uuid "4b5a6834-02b0-4d43-80a8-319c6dce617a")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D21")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -12524,7 +13340,7 @@
 			(uuid "6e1c4244-48a6-4505-8a5f-2cf51c52b83b")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "TP2")
 					(unit 1)
@@ -12534,7 +13350,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard1:LED_SK6812MINI-E-alt")
-		(at 104.14 152.4 0)
+		(at 88.9 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12543,8 +13359,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b37ce1ac-5450-42a7-9a9a-44733efe5e89")
-		(property "Reference" "D18"
-			(at 100.84 148.59 0)
+		(property "Reference" "D32"
+			(at 85.6 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12554,7 +13370,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 105.41 151.13 0)
+			(at 90.17 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12564,7 +13380,7 @@
 			)
 		)
 		(property "Footprint" "mylocal_footprints:SK6812-MINI-E-double-side"
-			(at 105.41 160.02 0)
+			(at 90.17 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12576,7 +13392,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 106.68 161.925 0)
+			(at 91.44 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12588,7 +13404,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 152.4 0)
+			(at 88.9 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12610,9 +13426,9 @@
 			(uuid "b28b4886-2aa3-4db2-a941-a2eb7842694f")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D18")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -12690,7 +13506,7 @@
 			(uuid "f9faaa5c-5809-4c7f-986c-3b8799e9c3d1")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "J1")
 					(unit 1)
@@ -12700,7 +13516,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard1:LED_SK6812MINI-E-alt")
-		(at 73.66 137.16 0)
+		(at 58.42 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12709,8 +13525,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9e4e4e5-1694-4be5-8c9e-c3197c8eab10")
-		(property "Reference" "D9"
-			(at 70.36 133.35 0)
+		(property "Reference" "D24"
+			(at 55.12 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12720,7 +13536,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 74.93 135.89 0)
+			(at 59.69 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12730,7 +13546,7 @@
 			)
 		)
 		(property "Footprint" "mylocal_footprints:SK6812-MINI-E-double-side"
-			(at 74.93 144.78 0)
+			(at 59.69 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12742,7 +13558,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 76.2 146.685 0)
+			(at 60.96 146.685 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12754,7 +13570,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 137.16 0)
+			(at 58.42 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12776,9 +13592,9 @@
 			(uuid "576fedef-4f2c-42ae-8aea-5eba52f0206f")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D9")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -12854,7 +13670,7 @@
 			(uuid "64bcc41a-de09-4a5a-8bae-7ec99720138c")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "JP3")
 					(unit 1)
@@ -12864,7 +13680,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard1:LED_SK6812MINI-E-alt")
-		(at 119.38 137.16 180)
+		(at 104.14 137.16 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12873,8 +13689,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bdf5a361-cf3c-4aa8-b6a8-aad989ef9d99")
-		(property "Reference" "D20"
-			(at 122.68 140.97 0)
+		(property "Reference" "D27"
+			(at 107.44 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12884,7 +13700,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 118.11 138.43 0)
+			(at 102.87 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12894,7 +13710,7 @@
 			)
 		)
 		(property "Footprint" "mylocal_footprints:SK6812-MINI-E-double-side"
-			(at 118.11 129.54 0)
+			(at 102.87 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12906,7 +13722,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 116.84 127.635 0)
+			(at 101.6 127.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12918,7 +13734,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 137.16 0)
+			(at 104.14 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12940,9 +13756,9 @@
 			(uuid "3e2afd3d-f3ed-414a-993e-df4a1043199b")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D20")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -12960,7 +13776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be8bbf05-467b-4d70-be3a-125b0042f2fa")
-		(property "Reference" "D39"
+		(property "Reference" "D5"
 			(at 241.3 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13043,9 +13859,9 @@
 			(uuid "119e1e46-410c-4403-8c7f-f9eff6be5bc3")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D39")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -13125,7 +13941,7 @@
 			(uuid "d4f4e526-61f9-406f-bd77-510753dc3655")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "J4")
 					(unit 1)
@@ -13145,7 +13961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4288b43-7cee-4158-a4af-efb3def0341b")
-		(property "Reference" "D24"
+		(property "Reference" "D7"
 			(at 179.07 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13228,9 +14044,9 @@
 			(uuid "486dabc7-12e6-40ef-bccd-65a0e6ce933d")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D24")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -13248,7 +14064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c449c1d4-488c-4d21-a59a-285e5191e66d")
-		(property "Reference" "S11"
+		(property "Reference" "S15"
 			(at 214.63 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13309,9 +14125,9 @@
 			(uuid "9fb8a523-f5ea-4dc0-95b6-b4eb0da031d2")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "S11")
+					(reference "S15")
 					(unit 1)
 				)
 			)
@@ -13329,7 +14145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c46a7002-202a-4265-9061-7502acd8588c")
-		(property "Reference" "S7"
+		(property "Reference" "S14"
 			(at 198.12 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13390,9 +14206,9 @@
 			(uuid "1cdfef20-c98d-44a3-8502-9641a7cda56e")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "S7")
+					(reference "S14")
 					(unit 1)
 				)
 			)
@@ -13410,7 +14226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c589db15-72de-4e84-bd4c-a58320f30356")
-		(property "Reference" "S19"
+		(property "Reference" "S17"
 			(at 245.11 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13471,9 +14287,9 @@
 			(uuid "bc1fe040-d33c-4de0-b4ec-1560bc0b772b")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "S19")
+					(reference "S17")
 					(unit 1)
 				)
 			)
@@ -13491,7 +14307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c651dcf2-7836-407c-9e17-cce285daab4f")
-		(property "Reference" "D36"
+		(property "Reference" "D10"
 			(at 226.06 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13574,95 +14390,9 @@
 			(uuid "6197cd42-28ab-4dd0-9395-7473d750b58e")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard1:LED_SK6812MINI-E-alt")
-		(at 88.9 182.88 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c7bdd00f-7125-47ea-8871-d74d59a06c1f")
-		(property "Reference" "D16"
-			(at 92.2 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI-E"
-			(at 87.63 184.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.5 0.5)
-				)
-			)
-		)
-		(property "Footprint" "mylocal_footprints:SK6812-MINI-E-double-side"
-			(at 87.63 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 86.36 173.355 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "ee1efb6c-ce0e-4665-8fcf-39fad25e7e93")
-		)
-		(pin "1"
-			(uuid "628eb690-4e8d-4fdd-b1ec-514bf8210727")
-		)
-		(pin "4"
-			(uuid "8c0ea306-a1d9-4547-bc80-47d4e3778fd0")
-		)
-		(pin "2"
-			(uuid "1371d29b-a817-4837-af72-f146770f8bf2")
-		)
-		(instances
-			(project "michele42_trackpad-splayed"
-				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D16")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -13680,7 +14410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c967caa0-1ddd-4cdb-8606-e631b38e9b8a")
-		(property "Reference" "D42"
+		(property "Reference" "D6"
 			(at 257.81 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13763,9 +14493,9 @@
 			(uuid "537072c9-0044-461f-939b-fccfe39df3e9")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D42")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -13783,7 +14513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf0b6240-2181-48b6-8836-5fa8a0028633")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 67.31 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13874,9 +14604,9 @@
 			(uuid "0e44c180-9d4b-4954-acfb-a4bb57c1dff5")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -13884,7 +14614,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 127 126.365 270)
+		(at 111.76 126.365 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13894,8 +14624,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2fc141f-bc2f-4a62-afe7-113549143b64")
-		(property "Reference" "#PWR010"
-			(at 123.19 126.365 0)
+		(property "Reference" "#PWR011"
+			(at 107.95 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13906,7 +14636,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 130.81 126.365 90)
+			(at 115.57 126.365 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13917,7 +14647,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 126.365 0)
+			(at 111.76 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13928,7 +14658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 126.365 0)
+			(at 111.76 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13939,7 +14669,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 126.365 0)
+			(at 111.76 126.365 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13952,9 +14682,9 @@
 			(uuid "579a9872-bc7d-4770-be3c-3560d7fd436d")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -13962,7 +14692,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard1:LED_SK6812MINI-E-alt")
-		(at 43.18 167.64 0)
+		(at 27.94 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13971,8 +14701,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4442248-76d5-4751-a571-41926d1bc6e5")
-		(property "Reference" "D3"
-			(at 39.88 163.83 0)
+		(property "Reference" "D34"
+			(at 24.64 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13982,7 +14712,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 44.45 166.37 0)
+			(at 29.21 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13992,7 +14722,7 @@
 			)
 		)
 		(property "Footprint" "mylocal_footprints:SK6812-MINI-E-double-side"
-			(at 44.45 175.26 0)
+			(at 29.21 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14004,7 +14734,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 45.72 177.165 0)
+			(at 30.48 177.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14016,7 +14746,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 167.64 0)
+			(at 27.94 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14038,17 +14768,17 @@
 			(uuid "f1692b59-2899-44f9-b421-a72e0c978970")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D3")
+					(reference "D34")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 226.06 93.98 90)
+		(lib_id "power:PWR_FLAG")
+		(at 120.65 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14056,32 +14786,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7df5842-97e7-4772-82d2-38eff6fa4704")
-		(property "Reference" "S16"
-			(at 229.87 92.71 90)
+		(uuid "d7cbed49-9ba4-4def-87bb-da8e8d31660f")
+		(property "Reference" "#FLG01"
+			(at 120.65 98.425 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "Keyswitch"
-			(at 229.87 95.25 90)
+		(property "Value" "PWR_FLAG"
+			(at 120.777 96.647 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "mylocal_footprints:Choc_Hotswap-double-sided"
-			(at 226.06 93.98 0)
+		(property "Footprint" ""
+			(at 120.65 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14092,7 +14820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 93.98 0)
+			(at 120.65 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14103,7 +14831,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 93.98 0)
+			(at 120.65 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14112,16 +14840,13 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "d7386973-d47f-4283-b1f1-3c6c3fdad900")
-		)
 		(pin "1"
-			(uuid "c430cb72-2c09-4add-b70c-c2e09ae39766")
+			(uuid "e9e5c7a2-9b2c-44e0-9636-6daa64c6059e")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "S16")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -14139,7 +14864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da96c48c-a485-4018-bbf3-4429dcc6e042")
-		(property "Reference" "S6"
+		(property "Reference" "S8"
 			(at 198.12 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14200,9 +14925,9 @@
 			(uuid "f2b5c223-7a4b-4572-b24d-7f806fce1cfd")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "S6")
+					(reference "S8")
 					(unit 1)
 				)
 			)
@@ -14220,7 +14945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da9e440c-80cb-41b3-9ab7-d811f8925d8e")
-		(property "Reference" "D25"
+		(property "Reference" "D13"
 			(at 179.07 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14303,9 +15028,9 @@
 			(uuid "5805d4b2-6dd4-4bf5-86be-cc35a749f96b")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D25")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -14313,7 +15038,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard1:LED_SK6812MINI-E-alt")
-		(at 58.42 182.88 180)
+		(at 43.18 182.88 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14322,8 +15047,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dac31b44-6816-4346-a08b-7d5bb31a9a44")
-		(property "Reference" "D8"
-			(at 61.72 186.69 0)
+		(property "Reference" "D41"
+			(at 46.48 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14333,7 +15058,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 57.15 184.15 0)
+			(at 41.91 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14343,7 +15068,7 @@
 			)
 		)
 		(property "Footprint" "mylocal_footprints:SK6812-MINI-E-double-side"
-			(at 57.15 175.26 0)
+			(at 41.91 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14355,7 +15080,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 55.88 173.355 0)
+			(at 40.64 173.355 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14367,7 +15092,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 182.88 0)
+			(at 43.18 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14389,9 +15114,9 @@
 			(uuid "d763f166-cf8d-494d-969d-58a18987a934")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D8")
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -14409,7 +15134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dde3bc0a-de62-4dca-9505-383fae1285a9")
-		(property "Reference" "D33"
+		(property "Reference" "D15"
 			(at 210.82 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14492,9 +15217,9 @@
 			(uuid "f9c3478e-50f9-41d3-815c-93bb36e361b3")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D33")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -14574,7 +15299,7 @@
 			(uuid "938b08ce-b85e-42b4-a304-e41e924a0cd9")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
 					(reference "SW1")
 					(unit 1)
@@ -14584,7 +15309,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard1:LED_SK6812MINI-E-alt")
-		(at 58.42 137.16 180)
+		(at 43.18 137.16 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14593,8 +15318,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e01ecbde-f299-4597-9935-651438751e13")
-		(property "Reference" "D5"
-			(at 61.72 140.97 0)
+		(property "Reference" "D23"
+			(at 46.48 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14604,7 +15329,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 57.15 138.43 0)
+			(at 41.91 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14614,7 +15339,7 @@
 			)
 		)
 		(property "Footprint" "mylocal_footprints:SK6812-MINI-E-double-side"
-			(at 57.15 129.54 0)
+			(at 41.91 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14626,7 +15351,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 55.88 127.635 0)
+			(at 40.64 127.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14638,7 +15363,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 137.16 0)
+			(at 43.18 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14660,9 +15385,87 @@
 			(uuid "93357d57-a189-4445-9ca3-77f70f726a3c")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D5")
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 140.97 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e3ed4687-8919-4291-b19f-0ee2c0e9b6b1")
+		(property "Reference" "JP6"
+			(at 140.97 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 140.97 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mylocal_footprints:jumper_data-MOD"
+			(at 140.97 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5eaabb8-643a-42be-a53e-4ddedbb1a7c0")
+		)
+		(pin "2"
+			(uuid "6975c22e-fd8f-4783-908b-e174cdb4d38f")
+		)
+		(instances
+			(project "michele42"
+				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -14670,7 +15473,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard1:LED_SK6812MINI-E-alt")
-		(at 73.66 167.64 0)
+		(at 58.42 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14679,8 +15482,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6b54b36-0908-4adf-bf1f-aa4dfa27e555")
-		(property "Reference" "D11"
-			(at 70.36 163.83 0)
+		(property "Reference" "D36"
+			(at 55.12 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14690,7 +15493,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 74.93 166.37 0)
+			(at 59.69 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14701,7 +15504,7 @@
 			)
 		)
 		(property "Footprint" "mylocal_footprints:SK6812-MINI-E-double-side"
-			(at 74.93 175.26 0)
+			(at 59.69 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14713,7 +15516,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 76.2 177.165 0)
+			(at 60.96 177.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14725,7 +15528,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 167.64 0)
+			(at 58.42 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14747,9 +15550,9 @@
 			(uuid "79fca479-1528-452b-8c69-593839961d50")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D11")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -14766,7 +15569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e725c80c-641c-4dd6-94e8-3926506ba64f")
-		(property "Reference" "D31"
+		(property "Reference" "D3"
 			(at 210.82 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14849,9 +15652,9 @@
 			(uuid "7894a907-27e7-4aaa-8f0a-a67caa5acfaf")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D31")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -14859,7 +15662,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard1:LED_SK6812MINI-E-alt")
-		(at 43.18 137.16 0)
+		(at 27.94 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14868,8 +15671,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8686b11-bbe1-4a46-86b7-492f48d723f8")
-		(property "Reference" "D1"
-			(at 39.88 133.35 0)
+		(property "Reference" "D22"
+			(at 24.64 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14879,7 +15682,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 44.45 135.89 0)
+			(at 29.21 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14889,7 +15692,7 @@
 			)
 		)
 		(property "Footprint" "mylocal_footprints:SK6812-MINI-E-double-side"
-			(at 44.45 144.78 0)
+			(at 29.21 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14901,7 +15704,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 45.72 146.685 0)
+			(at 30.48 146.685 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14913,7 +15716,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 137.16 0)
+			(at 27.94 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14935,9 +15738,9 @@
 			(uuid "9f9a20f6-7414-48a3-ab11-e4bcd1bfdf11")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "D1")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -14955,7 +15758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec369b63-8abf-4229-b6c9-1e3c3ca7e197")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR018"
 			(at 57.15 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -15013,9 +15816,9 @@
 			(uuid "86330d78-8580-44f5-b6ff-b510bafdd53b")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "#PWR05")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -15033,7 +15836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edc5759e-4999-4e93-a3ea-1c88ec7078df")
-		(property "Reference" "S8"
+		(property "Reference" "S20"
 			(at 198.12 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15094,9 +15897,9 @@
 			(uuid "bb3f7f1c-9700-4982-bc4b-bc36ad54e306")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "S8")
+					(reference "S20")
 					(unit 1)
 				)
 			)
@@ -15114,7 +15917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f24e72d3-d585-4685-8260-0808fb1b477f")
-		(property "Reference" "S20"
+		(property "Reference" "S6"
 			(at 261.62 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15175,9 +15978,9 @@
 			(uuid "14d0300b-2420-40ec-9157-4ec86e21c983")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "S20")
+					(reference "S6")
 					(unit 1)
 				)
 			)
@@ -15195,7 +15998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3142263-c95e-4440-9e18-a455355ad74d")
-		(property "Reference" "S15"
+		(property "Reference" "S16"
 			(at 229.87 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15256,9 +16059,9 @@
 			(uuid "135d6c36-689e-48db-99c0-0f965169b942")
 		)
 		(instances
-			(project "michele42_trackpad-splayed"
+			(project "michele42"
 				(path "/cec3d90c-3317-4fe5-82ec-9576b4a26d76"
-					(reference "S15")
+					(reference "S16")
 					(unit 1)
 				)
 			)
